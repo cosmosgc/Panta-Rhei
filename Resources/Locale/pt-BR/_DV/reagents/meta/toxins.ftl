@@ -1,0 +1,1 @@
+reagent-desc-heartbreaker-toxin-deltav = Um composto alucinógeno derivado da toxina destruidora de mentes bloqueia sinais neurológicos para o sistema respiratório, causando asfixia, mas a epinefrina filtrará.
