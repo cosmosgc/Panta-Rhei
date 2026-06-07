@@ -5,7 +5,7 @@ chat-radio-message-wrap = [color={ $channelColor }]{ $channel } { $name } { $ver
 
 chat-radio-message-wrap-bold = [color={ $channelColor }]{ $channel } { $name } { $verb } [font={ $fontType }  Tamanho={ $fontSize }][bold]"{ $message }"{ chat-manager-language-hint }[/bold][/font][/color]
 
-examine-headset-default-channel = Use { $prefix } para o canal padrão ([color=]{ $color }]{ $channel }[/color]).
+examine-headset-default-channel = Use { $prefix } for the default channel ([color={ $color }]{ $channel }[/color]).
 
 chat-radio-common =  Comum
 

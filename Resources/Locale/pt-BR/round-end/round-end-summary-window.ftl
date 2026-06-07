@@ -12,4 +12,4 @@ round-end-summary-window-duration-label = Durou por [color=yellow]{ $hours }  ho
 
 round-end-summary-window-player-info-if-observer-text = [color=gray]{ $playerOOCName }[/color]  Foi. [color=lightblue]{ $playerICName }[/color]- Um observador.
 
-round-end-summary-window-player-info-if-not-observer-text = [color=gray]{ $playerOOCName }[/color] era [color={ $icNameColor }]{ $playerICName }[/color] - O papel de [color=orange]{ $playerRole }[/color].
+round-end-summary-window-player-info-if-not-observer-text = [color=gray]{ $playerOOCName }[/color] was [color={ $icNameColor }]{ $playerICName }[/color] - O papel de [color=orange]{ $playerRole }[/color].

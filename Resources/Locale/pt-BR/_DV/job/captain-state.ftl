@@ -4,8 +4,8 @@ no-captain-request-aco-vote-with-aa-announcement =  Os registros da estação in
 
 no-captain-request-aco-vote-announcement =  Os registros indicam que nenhum capitão está presente, o pessoal do comando é solicitado a nomear um oficial de comando e informar os resultados ao Comando Central de acordo com o procedimento operacional padrão.
 
-no-captain-aa-unlocked-announcement = A autoridade de acesso foi concedida ao gabinete de identificação para uso do Oficial de Comando Interino, a posse não autorizada de AA de emergência é punível sob o Grande Crime de Crime [307]: Grande Larcene.
+no-captain-aa-unlocked-announcement = Command access authority has been granted to the Spare ID cabinet for use by the Acting Commanding Officer. Unauthorized possession of Emergency AA is punishable under Grand Felony Offense [307]: Grand Larceny.
 
-spare-id-warops-no-captain =  Devido às circunstâncias atuais, o comando foi concedido ao gabinete de identificação para uso do Oficial de Comando Atuador, certifique-se de que a identidade de reserva permaneça segura, a posse de AA de emergência não autorizada é punível sob o Grand Felony Offense, o Grand Larceny.
+spare-id-warops-no-captain = Due to the current circumstances, command has been granted to the Spare ID cabinet for use by the Acting Commanding Officer. Ensure the spare ID remains secure. Unauthorized possession of Emergency AA is punishable under Grand Felony Offense [307]: Grand Larceny.
 
-spare-id-warops-captain =  Devido às circunstâncias atuais, o acesso ao gabinete de identificação foi concedido para uso do Capitão, certifique-se de que a identidade de reserva permaneça segura, a posse de AA de emergência não autorizada é punível sob o Grande Delito de crime, o Grand Larceny.
+spare-id-warops-captain = Due to the current circumstances, access has been granted to the Spare ID cabinet for use by the Captain. Ensure the spare ID remains secure. Unauthorized possession of Emergency AA is punishable under Grand Felony Offense [307]: Grand Larceny.

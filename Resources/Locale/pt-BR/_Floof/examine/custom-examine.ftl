@@ -1,12 +1,12 @@
 custom-exam-guidelines-heading =  Orientações
 
 custom-exam-guidelines =
-    { "[" }Cor=amarelo]0.[/color] Este menu é rolável.
-    { "[" }- 1o.[/color]  Seja [color=#8020ff]conciso[/color] Nem todos terão tempo para ler parágrafos longos, tente não colocar descrições estáticas aqui.
-    { "[" }- 2 anos.[/color]  Quando incluso [color=red] Conteúdo ERP/NSFW[/color], habilitar o [color=8020ff]NSFW twiggle[/color] Só as pessoas que consentirem nisso o verão.
-    { "[" }- 3 cores.[/color]  Fique. [color=8020ff]no caráter[/color] Incluir coisas que outro personagem faria [color=8020ff] Veja[/color] ou de outra forma [color=8020ff]"Percebam"[/color]  Não inclua informações subjetivas, por exemplo, "Eles parecem bem".
-    { "[" }- 4 anos.[/color] Se necessário, você pode usar as mesmas marcas no seu texto como no papel (por exemplo, "\[color=red\] texto vermelho\[color\]"para criar [color=red] texto vermelho[/color]No entanto, não se pode usar cabeçalhos (porque aumentam drasticamente o tamanho da fonte).
-    { "[" }-Cor=amarelo]5.[/color] Se o objeto cujo exame você está tentando interagir é um jogador, então você só pode mudá-lo se eles consentirem com isso em suas configurações de consentimento.
+    { "[" }color=yellow]0.[/color] Este menu é rolável.
+    { "[" }color=yellow]1.[/color]  Seja [color=#8020ff]conciso[/color] Nem todos terão tempo para ler parágrafos longos, tente não colocar descrições estáticas aqui.
+    { "[" }color=yellow]2.[/color]  Quando incluso [color=red] Conteúdo ERP/NSFW[/color], habilitar o [color=8020ff]NSFW twiggle[/color] Só as pessoas que consentirem nisso o verão.
+    { "[" }color=yellow]3.[/color]  Fique. [color=8020ff]no caráter[/color] Incluir coisas que outro personagem faria [color=8020ff] Veja[/color] ou de outra forma [color=8020ff]"Percebam"[/color]  Não inclua informações subjetivas, por exemplo, "Eles parecem bem".
+    { "[" }color=yellow]4.[/color] Se necessário, você pode usar as mesmas marcas no seu texto como no papel (por exemplo, "\[color=red\] texto vermelho\[color\]"para criar [color=red] texto vermelho[/color]No entanto, não se pode usar cabeçalhos (porque aumentam drasticamente o tamanho da fonte).
+    { "[" }color=yellow]5.[/color] Se o objeto cujo exame você está tentando interagir é um jogador, então você só pode mudá-lo se eles consentirem com isso em suas configurações de consentimento.
 
 custom-exam-part-title-nsfw = NSFW (consentimento)
 

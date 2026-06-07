@@ -1,224 +1,267 @@
-paperwork-header-security = { "[" }Cor = #cb0000][bold]N[/bold]◣ [head=3][bold] SEGURANÇA[/bold][/head][/color]
+paperwork-header-security = { "[" }color=#cb0000] ◥[bold]N[/bold]◣ [head=3][bold] SEGURANÇA[/bold][/head][/color]
 
-paperwork-separator-security = { "[" }□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □ □[/color]
+paperwork-separator-security = { "[" }color=#cb0000]‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾[/color]
 
 paperwork-security-arrest-report =
     { paperwork-header-security }
     { paperwork-separator-security }
-        { "[" }head=2]RELATO[/head]
+        { "[" }head=2]ARREST REPORT[/head]
     { paperwork-separator-security }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }O CHEFE DA SEGURANÇA:[/bold]
-        { "[" }- Sim.[/bold]
-        { "[" }ASSIM QUER QUER QUER QUE VOCÊ SE DEVE SER REALIZADO.[/bold]
-        { "[" }- Não, não, não.[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]HEAD OF SECURITY:[/bold]
+        { "[" }bold]ARRESTING OFFICER:[/bold]
+        { "[" }bold]ARRESTED PERSON:[/bold]
+        { "[" }bold]JOB:[/bold]
     { paperwork-separator-security }
      Razão para a prisão:
     { paperwork-separator-security }
-    { "[" }- Não, não.[/head]
-     Código:SL1-01 (Fearmongering) - 5mins Max \[ ] Código:SL1-03 (Cruzamento animal) - 3mins \[ ] Código:SL1-04 (Roubo) - 2mins \[ ] Código:SL1-06 (Vandalismo) - 2mins \[ ] Código:SL1-09 (Brandishing) - 2mins \[ ] Código:SL1-11 (Possessão) - 5mins Max \[ ] Código:SL1-12 (Passo de Traste) - 2mins \[ ] Código:SL1-15 (Hooliganismo) - 'As Determinadas' \[ ] Código:SL1-17 (Falha de Compliance) - 2mins
-    { "[" } Avisos podem ser emitidos para uma primeira ofensa.[/color]
+    { "[" }head=3]Charges:[/head]
+    1XX Misdemeanor Crimes:
+    \[  ] Code:SL1-01 (Fearmongering) - 5mins Max
+    \[  ] Code:SL1-03 (Animal Cruelty) - 3mins
+    \[  ] Code:SL1-04 (Theft) - 2mins
+    \[  ] Code:SL1-06 (Vandalism) - 2mins
+    \[  ] Code:SL1-09 (Brandishing) - 2mins
+    \[  ] Code:SL1-11 (Possession) - 5mins Max
+    \[  ] Code:SL1-12 (Trespass) - 2mins
+    \[  ] Code:SL1-15 (Hooliganism) - 'As Determined'
+    \[  ] Code:SL1-17 (Failure To Comply) - 2mins
+    { "[" }color=gray]Warnings may be issued for a first misdemeanor offense.[/color]
     { paperwork-separator-security }
-    2XX Crimes de crime: \[ ] Código:SL2-01 (Perjúrio ou relatório falso) - 3 mins \[ ] Código:SL2-03 (Abate) - 8mins \[ ] Código:SL2-04 (Aperto) - 8mins \[ ] Código:SL2-05 (Mercado negro) - 6mins \[ ] Código:SL2-06 (Sabotagem) - 6mins \[ ] Código:SL2-07 (Abuso de Poder) - 5mins \[ ] Código:SL2-11 (Separação de crianças) - 8mins \[ ] Código:SL2-09 (Agresso)- 5mins \[[ ] Código:SL2-12 (Secure Trespass) - 4mins \[[ ] Código:SL2-13 (Possessão de felino ] - 10mins Max \[[ ] Código:SL2] - 4min (Consoito) - 4min (Sentimento) - 4mino) - 4mino (Sigla]
+    2XX Felony Crimes:
+    \[  ] Code:SL2-01 (Perjury or False Report) - 3 mins
+    \[  ] Code:SL2-03 (Manslaughter) - 8mins
+    \[  ] Code:SL2-04 (Grand Theft) - 8mins
+    \[  ] Code:SL2-05 (Black Marketeering) - 6mins
+    \[  ] Code:SL2-06 (Sabotage) - 6mins
+    \[  ] Code:SL2-07 (Mindbreaking) - 5mins
+    \[  ] Code:SL2-08 (Kidnapping) - 8mins
+    \[  ] Code:SL2-09 (Assault)- 5mins
+    \[  ] Code:SL2-10 (Abuse of Power) - 5mins
+    \[  ] Code:SL2-11 (Felony Possession) - 10mins Max
+    \[  ] Code:SL2-12 (Secure Trespass) - 4mins
+    \[  ] Code:SL2-13 (Endangerment) - 4mins
+    \[  ] Code:SL2-14 (Harassment) - 4mins
+    \[  ] Code:SL2-15 (Rioting) - 4mins
+    \[  ] Code:SL2-16 (Contempt of Court) - 4mins
+    \[  ] Code:SL2-17 (Obstruction of Justice) - 2mins
     { paperwork-separator-security }
-     Código:SL3-01 (Terrorismo) Código:SL3-03 (Assassino) Código:SL3-06 (Grande Sabotagem) Código:SL3-07 (Descorporealização) Código:SL3-08 (Hostage Takeing) Código:SL3-13 (Grande Perigo) Código:SL3-15 (Sedição)
-    { "[" } Todos os crimes de capital requerem um julgamento obrigatório.[/color]
+    3XX Capital Crimes:
+    \[  ] Code:SL3-01 (Terrorism)
+    \[  ] Code:SL3-03 (Murder)
+    \[  ] Code:SL3-06 (Grand Sabotage)
+    \[  ] Code:SL3-07 (Decorporealization)
+    \[  ] Code:SL3-08 (Hostage Taking)
+    \[  ] Code:SL3-13 (Grand Endangerment)
+    \[  ] Code:SL3-15 (Sedition)
+    { "[" }color=gray]All Capital crimes necessitate a mandatory trial.[/color]
     { paperwork-separator-security }
     Modificadores de Crime:
-    { "[" }O tempo combina com crimes cometidos ou tentados.[/color]
-    Solicitação, acessoria, tentativa de conspiração.
-    { "[" }50% máx. modificador adicional da sentença original.[/color]
-     Arma Mortal Agravação Intenção Discriminatória
-    { "[" }- 200% máx. modificador adicional da sentença original.[/color]
-    Reciivismo
-    { "[" }- Redução de sentença ou perdão.[/color]
-     Cooperação: redução de 50% da sentença original.
+    { "[" }color=gray]Time matches crimes commited or attempted.[/color]
+    \[  ] Solicitation
+    \[  ] Accessory
+    \[  ] Attempt
+    \[  ] Conspiracy
+    { "[" }color=gray]150% max additional modifier of original sentence.[/color]
+    \[  ] Deadly Weapon
+    \[  ] Aggravation
+    \[  ] Discriminatory Intent
+    { "[" }color=gray]200% max additional modifier of original sentence.[/color]
+    \[  ] Recidivism
+    { "[" }color=gray]Sentence reduction or pardon.[/color]
+    \[  ] Cooperation - 50% reduction of original sentence.
+    \[  ] Dire Emergency - Sentence reduction or full pardon.
+    \[  ] Self-Defence - Sentence reduction or full pardon.
     
-    { "[" }Este documento não é válido a menos que seja carimbado por pelo menos um dos funcionários necessários.[/color]
-    { "[" } Esta forma segue a lei espacial NT.[/color]
-    { "[" } Aqueles que abusam de permissão podem ser multados até 5000 Spesos.[/color]
-    { "[" } Diretor ou Chefe da Assinatura da Securiy:[/bold]
-    { "[" } Assinatura da Attorney:[/bold]
-    { "[" } Assinatura do Procurador:[/bold]
+    { "[" }color=red]This document is not valid unless stamped by at least one of the required personnel.[/color]
+    { "[" }color=gray]This form follows NT space law.[/color]
+    { "[" }color=gray]Those who abuse granted permission can be fined up to 5000 Spesos.[/color]
+    { "[" }bold]Warden or Head of Securiy's Signature:[/bold]
+    { "[" }bold]Attorney's Signature:[/bold]
+    { "[" }bold]Prosecutor's Signature:[/bold]
 
 paperwork-security-arrest-warrant =
     { paperwork-header-security }
     { paperwork-separator-security }
-        { "[" }CHEFE=2]ASSUNTO [/head]
+        { "[" }head=2]ARREST WARRANT [/head]
     { paperwork-separator-security }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }- Sim. [/bold]
-        { "[" }O CHEFE DA SEGURANÇA: [/bold]
-        { "[" }- Sim. [/bold]
-        { "[" }[WARRANT TARGET: [/bold]
-        { "[" }- Não, não, não. [/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]ARRESTING OFFICER: [/bold]
+        { "[" }bold]HEAD OF SECURITY: [/bold]
+        { "[" }bold]PROSECUTOR: [/bold]
+        { "[" }bold]WARRANT TARGET: [/bold]
+        { "[" }bold]JOB: [/bold]
     { paperwork-separator-security }
      Razão para a prisão:
     { paperwork-separator-security }
-    { "[" } Os mandados só são válidos quando emitidos pelo Chefe de Justiça ou pelo Secretário da Corte, ou na sua ausência, o Oficial Comandante, o Chefe de Segurança, ou o Diretor.[/color]
-    { "[" }Este documento não é válido a menos que seja carimbado por pelo menos um dos funcionários necessários.[/color]
+    { "[" }color=gray]Warrants are only valid when issued by either the Chief Justice or the Clerk of Court, or in their absence, the Commanding Officer, the Head of Security, or the Warden.[/color]
+    { "[" }color=#cb0000]This document is not valid unless stamped by at least one of the required personnel.[/color]
     
-    { "[" } Esta forma segue a lei espacial NT.[/color]
-    { "[" } Aqueles que abusam de permissão podem ser multados até 5000 Spesos.[/color]
+    { "[" }color=gray]This form follows NT space law.[/color]
+    { "[" }color=gray]Those who abuse granted permission can be fined up to 5000 Spesos.[/color]
     
     { paperwork-separator-security }
-    { "[" } Assinatura do Issuer:[/bold]
+    { "[" }bold]Issuer's Signature:[/bold]
 
 paperwork-security-department-search-warrant =
     { paperwork-header-security }
     { paperwork-separator-security }
-        { "[" }DEPARTAMENTO DE PROCURAR O mandado [/head]
+        { "[" }head=2]DEPARTMENT SEARCH WARRANT [/head]
     { paperwork-separator-security }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }- Sim.[/bold]
-        { "[" }O CHEFE DA SEGURANÇA:[/bold]
-        { "[" }ASSUNTOS DE GARANTIA: [/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]PROSECUTOR:[/bold]
+        { "[" }bold]HEAD OF SECURITY:[/bold]
+        { "[" }bold]TARGET OF WARRANT: [/bold]
     { paperwork-separator-security }
     -Pedido oficial: -Motivo para a busca:
     { paperwork-separator-security }
     Se forem encontrados itens ilegais no departamento de busca, serão confiscados e o dono desses itens pode ser detido a critério do oficial.
     
-    { "[" } Os mandados só são válidos quando emitidos pelo Chefe de Justiça ou pelo Secretário da Corte, ou na sua ausência, o Oficial Comandante, o Chefe de Segurança, ou o Diretor.[/bold]
-    { "[" }Este documento não é válido a menos que seja carimbado por pelo menos um dos funcionários necessários.[/color]
+    { "[" }bold]Warrants are only valid when issued by either the Chief Justice or the Clerk of Court, or in their absence, the Commanding Officer, the Head of Security, or the Warden.[/bold]
+    { "[" }color=#cb0000]This document is not valid unless stamped by at least one of the required personnel.[/color]
     
-    { "[" } Esta forma segue a lei espacial NT.[/color]
-    { "[" } Aqueles que abusam de permissão podem ser multados até 5000 Spesos.[/color]
+    { "[" }color=gray]This form follows NT space law.[/color]
+    { "[" }color=gray]Those who abuse granted permission can be fined up to 5000 Spesos.[/color]
     
     { paperwork-separator-security }
-    { "[" } Assinatura do Issuer:[/bold]
+    { "[" }bold]Issuer's Signature:[/bold]
 
 paperwork-security-detective-report =
     { paperwork-header-security }
     { paperwork-separator-security }
-    { "[" }RELATO DO DETETIVO [/head]
+    { "[" }head=2]DETECTIVE'S REPORT [/head]
     { paperwork-separator-security }
-    { "[" }- Não, não, não.[/bold]  Segurança da Estação contra Defensoria.
-    { "[" }- Sim.[/bold]
+    { "[" }bold]CASE:[/bold]  Segurança da Estação contra Defensoria.
+    { "[" }bold]PROSECUTOR:[/bold]
     { paperwork-separator-security }
      Detalhes do caso: evidência coletada:
     
     { paperwork-separator-security }
-    { "[" }Este documento não é válido a menos que seja carimbado por pelo menos um dos funcionários necessários.[/color]
+    { "[" }color=red]This document is not valid unless stamped by at least one of the required personnel.[/color]
     
-    { "[" } Provas não fornecidas ao Secretário da Corte para certificação antes do processo judicial, se disponíveis, não serão aceitas no registro.[/color]
+    { "[" }color=gray]Evidence not provided to the Clerk of Court for certification prior to the court proceedings, if available, will not be accepted into the record. All evidence collected should be shared with the Defendant's Attorney.[/color]
     
-    { "[" }O fracasso em aparecer a uma Invocação é uma violação da Lei Espacial e será considerado Contemplo da Corte.[/color]
+    { "[" }color=gray]Failure to appear to a Court Summons is a violation of Space Law and will be considered Contempt of Court.[/color]
     
     { paperwork-separator-security }
-    { "[" } Assinatura do Procurador:[/bold]
-    { "[" } Assinatura do detetive:[/bold]
+    { "[" }bold]Prosecutor's Signature:[/bold]
+    { "[" }bold]Detective's Signature:[/bold]
 
 paperwork-security-furlough-request =
     { paperwork-header-security }
     { paperwork-separator-security }
-        { "[" }PEDIDO DE PERDIDO[/head]
+        { "[" }head=2]FURLOUGH REQUEST[/head]
     { paperwork-separator-security }
     Este documento, se aprovado, permite que um preso deixe sua cela sob supervisão direta do pessoal de segurança por no máximo 20 minutos.
-    { "[" }- Cor = vermelho][bold]Este documento deve ser aprovado e carimbado pelo diretor ou chefe de segurança, e assinado pelo preso para ser válido![/bold][/color]
+    { "[" }color=red][bold]Este documento deve ser aprovado e carimbado pelo diretor ou chefe de segurança, e assinado pelo preso para ser válido![/bold][/color]
     
     Detento:  [color=#002AAF] Nome Aqui[/color]
                 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?   ? ?            ? ?   ? ? ? [color=#002AAF] Nome Aqui[/color]
                   Chefe de Segurança:   [color=#002AAF] Nome Aqui[/color]
                                Se o contrabando for descoberto ou dado ao preso, sentenças podem ser aplicadas ou estendidas.
     { paperwork-separator-security }
-    { "[" } Razão do detento para licença:[/bold]
+    { "[" }bold]Inmate's reason for furlough:[/bold]
     
     
-    { "[" }- Cor = vermelho][bold] NÃO SE APARTEM ATÉ O REVISÃO DOS MARINHOS![/color][/bold]
+    { "[" }color=red][bold] NÃO SE APARTEM ATÉ O REVISÃO DOS MARINHOS![/color][/bold]
     { paperwork-separator-security }
-    { "[" } Razão para negação (se negado):[/bold]
+    { "[" }bold]Reason for denial (if denied):[/bold]
     
     
-    
-    { paperwork-separator-security }
-    { "[" }Este documento não é válido a menos que seja carimbado por pelo menos um dos funcionários necessários, seguindo a Lei Espacial NT, aqueles que abusam da permissão concedida podem ser multados até 5000 spesos de acordo com o Manual NT §16-8,7c[/color]
     
     { paperwork-separator-security }
-    { "[" }- Cor = vermelho][italic] Ao assinar aqui, o preso concorda em atender às condições listadas neste formulário.[/color][/italic]
-    { "[" } Assinatura do Aprov:[/bold]
-    { "[" } Assinatura do preso:[/bold]
+    { "[" }color=#aaaaaa]This document is not valid unless stamped by at least one of the listed required personnel.
+    This form follows NT Space Law.
+    Those who abuse granted permission can be fined up to 5000 spesos pursuant NT Handbook §16-8.7c[/color]
+    
+    { paperwork-separator-security }
+    { "[" }color=red][italic] Ao assinar aqui, o preso concorda em atender às condições listadas neste formulário.[/color][/italic]
+    { "[" }bold]Approver's Signature:[/bold]
+    { "[" }bold]Inmate's Signature:[/bold]
 
 paperwork-security-individual-search-warrant =
     { paperwork-header-security }
     { paperwork-separator-security }
-        { "[" }CHEFE=2]INDIVIDIUAL PROCURA DE ENSAIO [/head]
+        { "[" }head=2]INDIVIDUAL SEARCH WARRANT [/head]
     { paperwork-separator-security }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }- Sim.[/bold]
-        { "[" }O CHEFE DA SEGURANÇA:[/bold]
-        { "[" }ASSUNTOS DE GARANTIA:[/bold]
-        { "[" }- Não, não, não.[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]PROSECUTOR:[/bold]
+        { "[" }bold]HEAD OF SECURITY:[/bold]
+        { "[" }bold]TARGET OF WARRANT:[/bold]
+        { "[" }bold]JOB:[/bold]
     { paperwork-separator-security }
     -Pedido oficial: -Motivo para a busca:
     { paperwork-separator-security }
     Se forem encontrados itens ilegais na posse do indivíduo procurado, serão confiscados e o dono desses itens pode ser detido a critério do oficial.
     
-    { "[" } Os mandados só são válidos quando emitidos pelo Chefe de Justiça ou pelo Secretário da Corte, ou na sua ausência, o Oficial Comandante, o Chefe de Segurança, ou o Diretor.[/bold]
-    { "[" }Este documento não é válido a menos que seja carimbado por pelo menos um dos funcionários necessários.[/color]
+    { "[" }bold]Warrants are only valid when issued by either the Chief Justice or the Clerk of Court, or in their absence, the Commanding Officer, the Head of Security, or the Warden.[/bold]
+    { "[" }color=#cb0000]This document is not valid unless stamped by at least one of the required personnel.[/color]
     
-    { "[" } Esta forma segue a lei espacial NT.[/color]
-    { "[" } Aqueles que abusam de permissão podem ser multados até 5000 Spesos.[/color]
+    { "[" }color=gray]This form follows NT space law.[/color]
+    { "[" }color=gray]Those who abuse granted permission can be fined up to 5000 Spesos.[/color]
     
     { paperwork-separator-security }
-    { "[" } Assinatura do Issuer:[/bold]
+    { "[" }bold]Issuer's Signature:[/bold]
 
 paperwork-security-inmate-request =
     { paperwork-header-security }
     { paperwork-separator-security }
-        { "[" }- Pedido de prisão. [/head]
+        { "[" }head=2]Inmate Request form [/head]
     { paperwork-separator-security }
-        { "[" }- Não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" } Hora de dormir:[/bold] XX:XX
-        { "[" }- Não.[/bold]
-        { "[" }- Não, não.[/bold]
+        { "[" }bold]  SECTOR:[/bold]  Estação Floof
+        { "[" }bold]  STATION:[/bold] { $stationName }
+        { "[" }bold]  SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]  WARDEN:[/bold]
+        { "[" }bold]  INMATE:[/bold]
     { paperwork-separator-security }
     Itens Solicitados:
     
     
     
-    { "[" }Por favor, coloque um X com o número de itens desejados.[/italic]
+    { "[" }italic]NOTE: Please place an X with the number of items desired.[/italic]
     { paperwork-separator-security }
-    { "[" }Este documento não é válido a menos que seja carimbado pelo diretor ou chefe de segurança.[/color]
+    { "[" }color=red]This document is not valid unless stamped by either the Warden or Head of Security.[/color]
     
-    { "[" } Seu pedido será considerado e aprovado dentro da razão.[/color]
+    { "[" }color=gray]Your request will be considered and approved within reason.[/color]
     { paperwork-separator-security }
-    { "[" } Assinatura do preso:[/bold]
-    { "[" } Assinatura do Aprov:[/bold]
+    { "[" }bold]Inmate's Signature:[/bold]
+    { "[" }bold]Approver's Signature:[/bold]
 
 paperwork-security-visitation-request =
     { paperwork-header-security }
     { paperwork-separator-security }
-        { "[" }REQUERIDO DE VISITA[/head]
+        { "[" }head=2]VISITATION REQUEST[/head]
     { paperwork-separator-security }
     Este documento, se aprovado, permite a visita única entre um preso e um funcionário das estações NanoTressen.
-    { "[" }- Cor = vermelho][bold]Este documento deve ser aprovado e carimbado pelo diretor, e assinado pelo visitante e preso para ser válido![/bold][/color]
+    { "[" }color=red][bold]Este documento deve ser aprovado e carimbado pelo diretor, e assinado pelo visitante e preso para ser válido![/bold][/color]
     
     Detento: [color=#002AAF] Nome Aqui[/color]
                   ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?   ? ?            ? ?   ? ? ? [color=#002AAF] Nome Aqui[/color]
                     Visitante: [color=#002AAF] Nome Aqui[/color]
                 ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
-    { "[" }Se o contrabando for descoberto no vistío ou preso, sentenças podem ser aplicadas ou estendidas.[/bold]
+    { "[" }bold]General visitation will not exceed 10 minutes. If contraband is discovered on the vistior or inmate, sentences may be applied or extended.[/bold]
     
     { paperwork-separator-security }
-    { "[" } Razão do convidado para a visitação:[/bold]
+    { "[" }bold]Guest's reason for visitation:[/bold]
     
-    Conjugal... [color=red]STRICTAMENTE 1 HR MAX[/color]
-    { "[" }- Cor = vermelho][bold] NÃO SE APARTEM ATÉ INMATAR SINAIS!!![/color][/bold]
+    /[ ]Conjugal - [color=red]STRICTAMENTE 1 HR MAX[/color]
+    { "[" }color=red][bold] NÃO SE APARTEM ATÉ INMATAR SINAIS!!![/color][/bold]
     { paperwork-separator-security }
-    { "[" } Razão da negação do preso:[/bold]
+    { "[" }bold]Inmate's reason for denial (if denied):[/bold]
     
     { paperwork-separator-security }
-    { "[" }Este documento não é válido a menos que seja carimbado por pelo menos um dos funcionários necessários, seguindo a Lei Espacial NT, aqueles que abusam da permissão concedida podem ser multados até 5000 spesos de acordo com o Manual NT §16-8,7c[/color]
+    { "[" }color=#aaaaaa]This document is not valid unless stamped by at least one of the listed required personnel.
+    This form follows NT Space Law.
+    Those who abuse granted permission can be fined up to 5000 spesos pursuant NT Handbook §16-8.7c[/color]
     { paperwork-separator-security }
-    { "[" }- Cor = vermelho][italic] Ao assinar aqui, o visitante e o preso concordam em atender às condições listadas neste formulário.[/color][/italic]
-    { "[" } Solicitando assinatura do visitante:[/bold]
-    { "[" } Assinatura do preso:[/bold]
+    { "[" }color=red][italic] Ao assinar aqui, o visitante e o preso concordam em atender às condições listadas neste formulário.[/color][/italic]
+    { "[" }bold]Requesting Visitor's Signature:[/bold]
+    { "[" }bold]Inmate's Signature:[/bold]

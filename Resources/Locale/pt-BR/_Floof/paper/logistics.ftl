@@ -1,23 +1,23 @@
-paperwork-header-logistics = { "[" }# #B18644][bold]N[/bold]◣ [head=3][bold]LOGÍSTICAS [/bold][/color][/head]
+paperwork-header-logistics = { "[" }color=#b18644] ◥[bold]N[/bold]◣ [head=3][bold]LOGÍSTICAS [/bold][/color][/head]
 
-paperwork-separator-logistics = { "[" }??? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?[/color]
+paperwork-separator-logistics = { "[" }color=#b18644]‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾[/color]
 
 paperwork-logistics-cargo-request =
     { paperwork-header-logistics }
     { paperwork-separator-logistics }
-        { "[" }CARGO PEDIDO[/head]
+        { "[" }head=2]CARGO REQUEST[/head]
     { paperwork-separator-logistics }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] NT14-NAME-XXX
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }- Não, não.[/bold]
-        { "[" }- Não, não.[/bold]
-        { "[" }- Não.[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] NT14-NAME-XXX
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]QUARTERMASTER:[/bold]
+        { "[" }bold]RECIEVER:[/bold]
+        { "[" }bold]DEPARTMENT:[/bold]
     { paperwork-separator-logistics }
     Itens Solicitados:
     { paperwork-separator-logistics }
-    { "[" }Por favor, coloque um X com o número de itens desejados.
+    { "[" }italic]NOTE: Please place an X with the number of items desired. If it is a personal order, place "personal" under department.
     
-    { "[" }Este documento não é válido a menos que seja carimbado por pelo menos um dos funcionários necessários.[/color]
+    { "[" }color=red]This document is not valid unless stamped by at least one of the required personnel.[/color]
     
      Assinatura dos Intendentes:

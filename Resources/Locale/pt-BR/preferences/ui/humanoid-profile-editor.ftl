@@ -106,7 +106,7 @@ humanoid-profile-editor-traits-tab = Traços
 
 humanoid-profile-editor-no-traits =  Não há traços disponíveis.
 
-humanoid-profile-editor-trait-count-hint =  Pontos disponíveis:{ $current }/{ $max }]
+humanoid-profile-editor-trait-count-hint = Points available: [{ $current }/{ $max }]
 
 trait-category-speech = Traços de fala
 

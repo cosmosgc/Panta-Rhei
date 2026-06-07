@@ -1,8 +1,8 @@
 # Shown when a stack is examined in details range
 comp-stack-examine-detail-count =
     { $count ->
-        [one]  Há [color={ $markupCountColor }]{ $count }[/color]  Coisa.
-       *[other]  Há [color={ $markupCountColor }]{ $count }[/color]  Coisas.
+        [one] There is [color={ $markupCountColor }]{ $count }[/color]  Coisa.
+       *[other] There are [color={ $markupCountColor }]{ $count }[/color]  Coisas.
     } na pilha.
 
 # Stack status control

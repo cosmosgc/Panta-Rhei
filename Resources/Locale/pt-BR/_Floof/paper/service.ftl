@@ -1,45 +1,45 @@
-paperwork-header-service = { "[" }Cor=#9fed58][bold]N[/bold]◣ [head=3][bold]BOTANHA [/bold][/color][/head]
+paperwork-header-service = { "[" }color=#9fed58] ◥[bold]N[/bold]◣ [head=3][bold]BOTANHA [/bold][/color][/head]
 
-paperwork-separator-service = { "[" }, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,[/color]
+paperwork-separator-service = { "[" }color=#9fed58]‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾[/color]
 
 paperwork-service-botany-request =
     { paperwork-header-service }
     { paperwork-separator-service }
-        { "[" }PEDIDO DE CARTA[/head]
+        { "[" }head=2]BOTANY REQUEST[/head]
     { paperwork-separator-service }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }- Não, não.[/bold]
-        { "[" }- Não, não.[/bold]
-        { "[" }- Não.[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]BOTANIST:[/bold]
+        { "[" }bold]RECIEVER:[/bold]
+        { "[" }bold]DEPARTMENT:[/bold]
     { paperwork-separator-service }
     { "•" } Itens Solicitados:
     { paperwork-separator-service }
-    { "[" }Por favor, coloque um X com o número de itens desejados.
+    { "[" }italic]NOTE: Please place an X with the number of items desired. If it is a personal order, place "personal" under department.
     
-    { "[" }Este documento não é válido a menos que seja assinado por pelo menos um dos funcionários necessários.[/color]
+    { "[" }color=red]This document is not valid unless signed by at least one of the required personnel.[/color]
     
     { "•" }  Assinatura do Solicitante:
 
 paperwork-service-restricted-plant-permit =
     { paperwork-header-service }
     { paperwork-separator-service }
-        { "[" }Permissão restrita da planta [/head]
+        { "[" }head=2]Restricted Plant Permit [/head]
     { paperwork-separator-service }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }- Não, não.[/bold]
-        { "[" }O QUE É QUE VOCÊ ESTÁ ?[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]BOTANIST:[/bold]
+        { "[" }bold]HEAD OF PERSONNEL:[/bold]
     { paperwork-separator-service }
     { "•" }  Plantas que este botânico pode crescer:
     { "•" }  Razão para se cultivarem estes:
     { paperwork-separator-service }
-    { "[" }Este documento dá [insert name] A capacidade de crescer { "{stated plant}" } Sem obstáculos.[/color]
+    { "[" }color=red]This document gives [insert name] A capacidade de crescer { "{stated plant}" } Sem obstáculos.[/color]
     
-    { "[" } Esta licença pode ser revogada em um momento se a parte aplicável violar a Lei Espacial.[/color]
+    { "[" }color=gray]This Permit can be revoked at a moment's notice if the applicable party violates Space Law.[/color]
     
-    { "[" }Este documento deve ser assinado e carimbado pelo Chefe de Pessoal para ser considerado válido.[/color]
+    { "[" }color=red]This document must be signed and stamped by Head of Personnels to be considered valid.[/color]
     
-    { "[" } Chefe do Selo de Pessoal e Assinatura:[/bold]
+    { "[" }bold]Head of Personnel's Stamp & Signature:[/bold]

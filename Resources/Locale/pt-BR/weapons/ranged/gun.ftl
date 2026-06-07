@@ -1,6 +1,6 @@
-gun-selected-mode-examine = O modo de fogo selecionado atual é [color={ $color }]{ $mode }[/color].
+gun-selected-mode-examine = Current selected fire mode is [color={ $color }]{ $mode }[/color].
 
-gun-fire-rate-examine = A taxa de fogo é [color={ $color }]{ $fireRate }[/color] por segundo.
+gun-fire-rate-examine = Fire rate is [color={ $color }]{ $fireRate }[/color] por segundo.
 
 gun-selector-verb = Mude para { $mode }
 
@@ -40,12 +40,12 @@ gun-cartridge-spent = É mesmo. [color=red] gastada[/color].
 gun-cartridge-unspent = É mesmo. [color=lime] Não gasto.[/color].
 
 # BatteryAmmoProvider
-gun-battery-examine =  Tem carga suficiente para [color={ $color }]{ $count }[/color] -Tiros.
+gun-battery-examine = It has enough charge for [color={ $color }]{ $count }[/color] -Tiros.
 
 # CartridgeAmmoProvider
 gun-chamber-bolt-ammo =  Arma não aparafusada.
 
-gun-chamber-bolt = O parafuso é [color={ $color }]{ $bolt }[/color].
+gun-chamber-bolt = The bolt is [color={ $color }]{ $bolt }[/color].
 
 gun-chamber-bolt-closed =  Fechado.
 
@@ -62,7 +62,7 @@ gun-chamber-bolt-open-state =  Fechado.
 gun-chamber-rack = Rack.
 
 # MagazineAmmoProvider
-gun-magazine-examine =  Tem [color=]{ $color }]{ $count }[/color]  Tiros restantes.
+gun-magazine-examine = It has [color={ $color }]{ $count }[/color]  Tiros restantes.
 
 # RevolverAmmoProvider
 gun-revolver-empty = Revólver vazio.

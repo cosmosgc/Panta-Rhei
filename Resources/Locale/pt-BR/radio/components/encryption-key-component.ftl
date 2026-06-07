@@ -14,4 +14,4 @@ examine-encryption-channels-prefix =  Frequências disponíveis:
 
 examine-encryption-channel = [color={ $color }]{ $key } para { $id } ({ NATURALFIXED($freq, 1) })[/color]
 
-examine-encryption-default-channel = O canal padrão é [color={ $color }]{ $channel }[/color].
+examine-encryption-default-channel = The default channel is [color={ $color }]{ $channel }[/color].

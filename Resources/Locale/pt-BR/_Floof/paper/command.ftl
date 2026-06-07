@@ -1,45 +1,45 @@
-paperwork-command-header = { "[" }Cor = #009100][bold]N[/bold]◣ [head=3][bold] Comando Central[/bold][/head][/color]
+paperwork-command-header = { "[" }color=#009100]◥[bold]N[/bold]◣ [head=3][bold] Comando Central[/bold][/head][/color]
 
-paperwork-command-separator = { "[" }????????????[/color]
+paperwork-command-separator = { "[" }color=#009100]‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾[/color]
 
 paperwork-command-emergency-personal-recovery =
     { paperwork-command-header }
     { paperwork-command-separator }
-        { "[" }RECUPERAÇÃO PESSOAL DE EMERGÊNCIA[/bold]
+        { "[" }bold]EMERGENCY PERSONAL RECOVERY[/bold]
     { paperwork-command-separator }
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }- Não, não.[/bold]
-        { "[" }O QUE É QUE VOCÊ ESTÁ ?[/bold]
-        { "[" }O CHEFE DA SEGURANÇA:[/bold]
-        { "[" }- Não, não.[/bold]
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]CAPTAIN:[/bold]
+        { "[" }bold]HEAD OF PERSONNEL:[/bold]
+        { "[" }bold]HEAD OF SECURITY:[/bold]
+        { "[" }bold]QUARTERMASTER:[/bold]
     { paperwork-command-separator }
      Razão para enviar fax ao Comando Central: "Resposta desejada do Comando Central: detalhes da pessoa desaparecida:
     { paperwork-command-separator }
     
-    { "[" }Este documento não é válido a menos que carimbado pelo Capitão e pelo menos dois dos funcionários necessários.[/color]
+    { "[" }color=red]This document is not valid unless stamped by The Captain & least two of the required personnel.[/color]
     
-    { "[" }Por favor, note que o Comando Central não é responsável por nenhum perdido pessoal, pois isso é responsabilidade colocada sobre o chefe do departamento aplicável, o Comando Central terá essa forma em consideração, no entanto, eles podem negá-la com base no fato de que o departamento deve recuperar o pessoal.[/italic]
+    { "[" }italic]Note: Please note, Central Command is not liable for any personal lost, as that is responsibility placed upon the applicable department head. Central Command will take this form into consideration, however they are allowed to deny it on the grounds the department must recover said personnel.[/italic]
     
-    { "[" }ASSINATURA DE CAPITAIS:[/bold]
-    { "[" }ASSINATURA DO COMANDO:[/bold]
-    { "[" }ASSINATURA DO COMANDO:[/bold]
+    { "[" }bold]CAPTAINS SIGNATURE:[/bold]
+    { "[" }bold]COMMAND MEMBER'S SIGNATURE:[/bold]
+    { "[" }bold]COMMAND MEMBER'S SIGNATURE:[/bold]
 
 paperwork-command-station-request-for-assistance =
     { paperwork-command-header }
     { paperwork-command-separator }
-        { "[" }PEDIDO DE ESTAÇÃO PARA ASSISTÊNCIA[/bold]
+        { "[" }bold]STATION REQUEST FOR ASSISTANCE[/bold]
     { paperwork-command-separator }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }- Não, não.[/bold]
-        { "[" }O QUE É QUE VOCÊ ESTÁ ?[/bold]
-        { "[" }O CHEFE DA SEGURANÇA:[/bold]
-        { "[" }- Não.[/bold]
-        { "[" }- Não.[/bold]
-        { "[" }- Não, não.[/bold]
-        { "[" }DIRETOR DE INVESTIGAÇÃO:[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]CAPTAIN:[/bold]
+        { "[" }bold]HEAD OF PERSONNEL:[/bold]
+        { "[" }bold]HEAD OF SECURITY:[/bold]
+        { "[" }bold]CHIEF ENGINEER:[/bold]
+        { "[" }bold]CHIEF MEDICAL OFFICER:[/bold]
+        { "[" }bold]QUARTERMASTER:[/bold]
+        { "[" }bold]RESEARCH DIRECTOR:[/bold]
     { paperwork-command-separator }
     
      Razão para enviar um fax ao Comando Central, "Repone" desejado do Comando Central, tem certeza? { "{ }" }
@@ -47,14 +47,14 @@ paperwork-command-station-request-for-assistance =
     
     { paperwork-command-separator }
     
-    { "[" }Este documento não é válido a menos que carimbado pelo Capitão e pelo menos dois dos funcionários necessários.[/color]
+    { "[" }color=red]This document is not valid unless stamped by The Captain & least two of the required personnel.[/color]
     
-    { "[" }Por favor, coloque um "X" nas duas caixas "realmente seguras" se estiver pronto para se comprometer totalmente com este curso de ação.[/italic]
+    { "[" }italic]Note: Please place an "X" in the two "really sure" boxes if you ready to fully commit to this course of action. These boxes will be taken into consideration by Central Command.[/italic]
     
-    { "[" }- Sim.[/bold]
-    { "[" }O CURSO DA SINATURA PESSOAL:[/bold]
-    { "[" }O CHEFE DA SINATURA DE SEGURANÇA:[/bold]
-    { "[" }SEGUNDA-FEIRA, 19 DE AGOSTO[/bold]
-    { "[" }SINATURA DE OFICIAIS MÉDICOS DE CHIEF:[/bold]
-    { "[" }SEGUNDA-FEIRA, 19 DE AGOSTO[/bold]
-    { "[" }SEGUNDA-FEIRA, 19 DE AGOSTO[/bold]
+    { "[" }bold]CAPTAIN SIGNATURE:[/bold]
+    { "[" }bold]HEAD OF PERSONNEL SIGNATURE:[/bold]
+    { "[" }bold]HEAD OF SECURITY SIGNATURE:[/bold]
+    { "[" }bold]CHIEF ENGINEER SIGNATURE:[/bold]
+    { "[" }bold]CHIEF MEDICAL OFFICER SIGNATURE:[/bold]
+    { "[" }bold]QUARTERMASTER SIGNATURE:[/bold]
+    { "[" }bold]RESEARCH DIRECTOR SIGNATURE:[/bold]

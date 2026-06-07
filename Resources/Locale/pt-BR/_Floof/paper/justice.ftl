@@ -1,150 +1,189 @@
-paperwork-header-justice = { "[" }Cor=#6b2833][bold]N[/bold]◣ [head=3][bold] JUSTIÇA[/bold][/head][/color]
+paperwork-header-justice = { "[" }color=#6b2833] ◥[bold]N[/bold]◣ [head=3][bold] JUSTIÇA[/bold][/head][/color]
 
-paperwork-separator-justice = { "[" }cor=#6b2833]   , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,[/color]
+paperwork-separator-justice = { "[" }color=#6b2833]‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾[/color]
 
 paperwork-justice-pardon-request =
     { paperwork-header-justice }
     { paperwork-separator-justice }
-        { "[" }PEDIDO DE PERDIDO[/head]
+        { "[" }head=2]PARDON REQUEST[/head]
     { paperwork-separator-justice }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }- Não, não.[/bold]
-        { "[" }- Não, não, não.[/bold]
-        { "[" }- Não, não.[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]CAPTAIN:[/bold]
+        { "[" }bold]WARDEN:[/bold]
+        { "[" }bold]TARGET OF PARDON:[/bold]
     { paperwork-separator-justice }
     Este documento, se aprovado, permite a libertação de um preso condenado a Confinamento Permanente (Perma), sob as estipulações acordadas por pessoal autorizado.
-    { "[" }- Cor = vermelho][italic] Os presos podem ser liberados para liberdade condicional pelo diretor, chefe de segurança, ou podem pedir liberdade condicional a critério e disponibilidade do juiz-chefe ou do secretário da corte.[/italic][/color]
+    { "[" }color=red][italic] Os presos podem ser liberados para liberdade condicional pelo diretor, chefe de segurança, ou podem pedir liberdade condicional a critério e disponibilidade do juiz-chefe ou do secretário da corte.[/italic][/color]
     { paperwork-separator-justice }
-    { "[" }A razão do preso para a condicional[/bold]
+    { "[" }bold]Inmate's Reasoning for Parole[/bold]
     
     
     { paperwork-separator-justice }
-    { "[" } Notas do diretor:[/bold]
+    { "[" }bold]Warden's Notes:[/bold]
     
     
     { paperwork-separator-justice }
     Eu, (nome completo), na posição de (nome completo do cargo), autorizo a liberação do preso (nome completo) do Confinamento Permanente.
     { paperwork-separator-justice }
     
-    { "[" } Assinatura do Emissor de Perdão:[/bold]
-    { "[" } Assinatura do Aprov:[/bold]
+    { "[" }bold]Pardon Issuer's Signature:[/bold]
+    { "[" }bold]Approver's Signature:[/bold]
 
 paperwork-justice-restraining-order =
     { paperwork-header-justice }
     { paperwork-separator-justice }
-    { "[" }CHEFE DE CHEFE[/head]
+    { "[" }head=2]RESTRAINING ORDER[/head]
     { paperwork-separator-justice }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }- Não.[/bold]
-        { "[" }- Não, não, não.[/bold]
-        { "[" }TARGO DE RESTRUÇÃO:[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]DOCUMENT COMPLIER:[/bold]
+        { "[" }bold]JOB:[/bold]
+        { "[" }bold]TARGET OF RESTRAINING ORDER:[/bold]
     { paperwork-separator-justice }
     Motivo da Ordem de Restrição: Arquivamento de Requerentes: Trabalho do Requerente: Banição de Departamento:
-    { "[" }- Cor = cinza.[italic]Por favor, especifique se o alvo está proibido de entrar no departamento de trabalho dos candidatos.[/color][/italic]
+    { "[" }color=gray][italic]Por favor, especifique se o alvo está proibido de entrar no departamento de trabalho dos candidatos.[/color][/italic]
     { paperwork-separator-justice }
-    { "[" }Este documento não é válido a menos que seja carimbado por pelo menos um dos aprovados: o Chefe de Justiça ou o Secretário da Corte, ou na sua ausência, o Chefe de Pessoal.[/color]
-    { "[" }Este documento não é válido a menos que seja carimbado pelo diretor ou pelo chefe de segurança.[/color]
+    { "[" }color=red]This document is not valid unless stamped by at least one of the authorized approvers: the Chief Justice or the Clerk of Court, or in their absence, the Head of Personnel.[/color]
+    { "[" }color=red]This document is not valid unless stamped by either the Warden or the Head of Security.[/color]
     { paperwork-separator-justice }
-     { "[" }Aprover Autorizado:[/bold]
-     { "[" } Chefe de Segurança/Assinatura de Diretor:[/bold]
+     { "[" }bold] Authorized Approver:[/bold]
+     { "[" }bold] Head of Security/Warden Signature:[/bold]
 
 paperwork-justice-trial-docket-civil =
     { paperwork-header-justice }
     { paperwork-separator-justice }
-    { "[" }DÓCADO TRIAL - CIVIL[/head]
+    { "[" }head=2]TRIAL DOCKET - CIVIL[/head]
     { paperwork-separator-justice }
-    { "[" }- Não, não, não.[/bold]  Estação Floof
-    { "[" }- Não, não.[/bold] { $stationName }
-    { "[" }- Não, não, não.[/bold] (PLAINTIFF) v. (DEFENDANTE)
+    { "[" }bold]SECTOR:[/bold]  Estação Floof
+    { "[" }bold]STATION:[/bold] { $stationName }
+    { "[" }bold]CASE:[/bold] (PLAINTIFF) v. (DEFENDANTE)
     
     { paperwork-separator-justice }
     ATO DEPARTIDO CLASSIFICAÇÃO CLASSIFICAÇÃO CIVÍFICA
     
-    { "[" }Este formulário serve como notificação oficial do arquivo ao Departamento Jurídico de que foi solicitado um julgamento civil.[/color]
+    { "[" }color=gray]This form serves as official notification from the filer to the Legal Department that a Civil Trial has been requested.[/color]
     { paperwork-separator-justice }
-    { "[" }Arruinamento de danos:[/bold]
+    { "[" }bold]Claim of Damages:[/bold]
     
     
-    { "[" } Prêmio Solicitado pelo Plaintifício por Danos:[/bold]
+    { "[" }bold]Plaintiff's Requested Award for Damages:[/bold]
     
     
     { paperwork-separator-justice }
-    { "[" }Este documento não é válido a menos que seja carimbado pelo juiz presidente ou pelo secretário da corte.[/color]
+    { "[" }color=red]This document is not valid unless stamped by the presiding judge or the Clerk of Court.[/color]
     
-    { "[" }A falta de comparecer no tribunal resultará na ausência da parte acusada de Contemplo da Corte.[/color]
-    { "[" } Provas não fornecidas ao secretário do tribunal para certificação antes do processo judicial, se disponíveis, não serão aceitas no registro.[/color]
+    { "[" }color=#aaaaaa]Failure to appear in court will result in the absent party being charged with Contempt of Court.[/color]
+    { "[" }color=gray]Evidence not provided to the Clerk of Court for certification prior to the court proceedings, if available, will not be accepted into the record. All evidence collected should be shared with representatives from both parties.[/color]
     { paperwork-separator-justice }
-    { "[" } Assinatura de Filer:[/bold]
-    { "[" } Presidente da Assinatura do Juiz:[/bold]
+    { "[" }bold]Filer's Signature:[/bold]
+    { "[" }bold]Presiding Judge's Signature:[/bold]
 
 paperwork-justice-trial-docket-criminal =
     { paperwork-header-justice }
     { paperwork-separator-justice }
-        { "[" }CHEFE = 2]TRICAL DOCKET - CRISÃO[/head]
+        { "[" }head=2]TRIAL DOCKET - CRIMINAL[/head]
     { paperwork-separator-justice }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold]  Segurança da Estação contra Defensoria.
-        { "[" }- Não, não.[/bold]
-        { "[" }O CHEFE DA SEGURANÇA:[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]CASE:[/bold]  Segurança da Estação contra Defensoria.
+        { "[" }bold]CAPTAIN:[/bold]
+        { "[" }bold]HEAD OF SECURITY:[/bold]
     { paperwork-separator-justice }
     CLASSIFICAÇÃO:
     
-    { "[" }Este formulário serve como notificação oficial do arquivo para o Departamento Jurídico de que um julgamento criminal foi solicitado.[/color]
+    { "[" }color=gray]This form serves as official notification from the filer to the Legal Department that a Criminal Trial has been requested.[/color]
     { paperwork-separator-justice }
-    { "[" }- Não, não.[/head]
-     Código:SL1-01 (Fearmongering) \[ ] Código:SL1-03 ( Crueldade animal) \[ ] Código:SL1-04 (Roubo) \[ ] Código:SL1-06 (Vandalismo) \[ ] Código:SL1-09 (Marcagem) \[ ] Código:SL1-11 (Possessão) \[ ] Código:SL1-12 (Passo) \[ ] Código:SL1-15 (Hooliganismo) \[[ ] Código:SL1-17 (Falha em Complicar)
+    { "[" }head=3]Charges:[/head]
+    1XX Misdemeanor Crimes:
+    \[  ] Code:SL1-01 (Fearmongering)
+    \[  ] Code:SL1-03 (Animal Cruelty)
+    \[  ] Code:SL1-04 (Theft)
+    \[  ] Code:SL1-06 (Vandalism)
+    \[  ] Code:SL1-09 (Brandishing)
+    \[  ] Code:SL1-11 (Possession)
+    \[  ] Code:SL1-12 (Trespass)
+    \[  ] Code:SL1-15 (Hooliganism)
+    \[  ] Code:SL1-17 (Failure To Comply)
     
     { paperwork-separator-justice }
-    2XX Crimes de Crime: \[ ] Código:SL2-01 (Perjúrio ou relatório falso) \[ ] Código:SL2-03 (Abate) \[ ] Código:SL2-04 (Grande Roubo) \[ ] Código:SL2-05 (Agressão) \[ ] Código:SL2-06 (Sabotagem) \[ ] Código:SL2-07 (Risco) \[ ] Código:SL2-08 (Separação) \[ ] Código:SL2-09 (Agressão) \[ ] Código:SL2-10 (Abuso de Poder) \[ ] Código:SL2-11 (Possessão Felonia) \[ ] Código:SL2-12 (Secure Trespass) \[ ] Código:SL2-13 (Alargamento) \[ ] Código:SL2-14 (Harassment) \[ ] Código:SL2-15 (Rio) \[ ] Código:SL2-16 (Contempo do Tribunal) \[ObSL2] (Código:
+    2XX Felony Crimes:
+    \[  ] Code:SL2-01 (Perjury or False Report)
+    \[  ] Code:SL2-03 (Manslaughter)
+    \[  ] Code:SL2-04 (Grand Theft)
+    \[  ] Code:SL2-05 (Black Marketeering)
+    \[  ] Code:SL2-06 (Sabotage)
+    \[  ] Code:SL2-07 (Mindbreaking)
+    \[  ] Code:SL2-08 (Kidnapping)
+    \[  ] Code:SL2-09 (Assault)
+    \[  ] Code:SL2-10 (Abuse of Power)
+    \[  ] Code:SL2-11 (Felony Possession)
+    \[  ] Code:SL2-12 (Secure Trespass)
+    \[  ] Code:SL2-13 (Endangerment)
+    \[  ] Code:SL2-14 (Harassment)
+    \[  ] Code:SL2-15 (Rioting)
+    \[  ] Code:SL2-16 (Contempt of Court)
+    \[  ] Code:SL2-17 (Obstruction of Justice)
     
     { paperwork-separator-justice }
-     Código:SL3-01 (Terrorismo) Código:SL3-03 (Assassino) Código:SL3-06 (Grande Sabotagem) Código:SL3-07 (Descorporealização) Código:SL3-08 (Hostage Takeing) Código:SL3-13 (Grande Perigo) Código:SL3-15 (Sedição)
+    3XX Capital Crimes:
+    \[  ] Code:SL3-01 (Terrorism)
+    \[  ] Code:SL3-03 (Murder)
+    \[  ] Code:SL3-06 (Grand Sabotage)
+    \[  ] Code:SL3-07 (Decorporealization)
+    \[  ] Code:SL3-08 (Hostage Taking)
+    \[  ] Code:SL3-13 (Grand Endangerment)
+    \[  ] Code:SL3-15 (Sedition)
     
     { paperwork-separator-justice }
     Modificadores de Crime:
-    { "[" }O tempo combina com crimes cometidos ou tentados.[/color]
-    Solicitação, acessoria, tentativa de conspiração.
-    { "[" }50% máx. modificador adicional da sentença original.[/color]
-     Arma Mortal Agravação Intenção Discriminatória
-    { "[" }- 200% máx. modificador adicional da sentença original.[/color]
-    Reciivismo
-    { "[" }- Redução de sentença ou perdão.[/color]
-     Cooperação: redução de 50% da sentença original.
+    { "[" }color=gray]Time matches crimes commited or attempted.[/color]
+    \[  ] Solicitation
+    \[  ] Accessory
+    \[  ] Attempt
+    \[  ] Conspiracy
+    { "[" }color=gray]150% max additional modifier of original sentence.[/color]
+    \[  ] Deadly Weapon
+    \[  ] Aggravation
+    \[  ] Discriminatory Intent
+    { "[" }color=gray]200% max additional modifier of original sentence.[/color]
+    \[  ] Recidivism
+    { "[" }color=gray]Sentence reduction or pardon.[/color]
+    \[  ] Cooperation - 50% reduction of original sentence.
+    \[  ] Dire Emergency - Sentence reduction or full pardon.
+    \[  ] Self-Defence - Sentence reduction or full pardon.
     { paperwork-separator-justice }
     
-    { "[" }"Totália Tempo Sentido:[/bold]
-    { "[" }REQUER CONFINAMENTO PERMENANTE?[/bold]
-    { "[" }Este documento não é válido a menos que seja carimbado pelo juiz presidente ou pelo secretário da corte.[/color]
+    { "[" }bold]TOTAL TIME SENTENCED:[/bold]
+    { "[" }bold]REQUESTING PERMENANT CONFINEMENT?:[/bold]
+    { "[" }color=red]This document is not valid unless stamped by the presiding judge or the Clerk of Court.[/color]
     
-    { "[" }Por acusações de 25 minutos ou mais, o julgamento deve ser realizado dentro de uma hora após a apresentação dessas acusações.[/color]
-    { "[" } Provas não fornecidas ao secretário do tribunal para certificação antes do processo judicial, se disponíveis, não serão aceitas no registro.[/color]
+    { "[" }color=#aaaaaa]For charges totaling 25 minutes or greater, the trial must be held within one hour following the filing of those charges.[/color]
+    { "[" }color=gray]Evidence not provided to the Clerk of Court for certification prior to the court proceedings, if available, will not be accepted into the record. All evidence collected should be shared with representatives from both parties.[/color]
     { paperwork-separator-justice }
-    { "[" } Assinatura da Attorney:[/bold]
-    { "[" }Acusação/Chefe de Segurança:[/bold]
-    { "[" } Presidente da Assinatura do Juiz:[/bold]
+    { "[" }bold]Attorney's Signature:[/bold]
+    { "[" }bold]Prosecution/Head of Security's Signature:[/bold]
+    { "[" }bold]Presiding Judge's Signature:[/bold]
 
 paperwork-justice-written-testimony =
     { paperwork-header-justice }
     { paperwork-separator-justice }
-        { "[" }TESTEMUNHA ESCRITA[/head]
+        { "[" }head=2]WRITTEN TESTIMONY[/head]
     { paperwork-separator-justice }
-        { "[" }- Não, não, não.[/bold] (Plantif) v. (DEFENDANTE)
-        { "[" }- Sim.[/bold]
-        { "[" }- Não, não, não.[/bold]
+        { "[" }bold]CASE:[/bold] (Plantif) v. (DEFENDANTE)
+        { "[" }bold]PROSECUTOR:[/bold]
+        { "[" }bold]ATTORNEY:[/bold]
     { paperwork-separator-justice }
      Testemunho de xxx:
     
     { paperwork-separator-justice }
-    { "[" }Este documento não é válido a menos que seja carimbado por pelo menos um dos funcionários necessários.[/color]
+    { "[" }color=red]This document is not valid unless stamped by at least one of the required personnel.[/color]
     
-    { "[" } Provas não fornecidas ao secretário do tribunal para certificação antes do processo judicial, se disponíveis, não serão aceitas no registro.[/color]
+    { "[" }color=gray]Evidence not provided to the Clerk of Court for certification prior to the court proceedings, if available, will not be accepted into the record. All evidence collected should be shared with representatives from both parties.[/color]
     
-    { "[" }A falha em aparecer a uma Invocação é uma violação da Lei Espacial e será considerada Contemplência da Corte.[/color]
+    { "[" }color=gray]Failure to appear to a Court Summons is a violation of Space Law & will be considered Contempt of Court.[/color]
     
     { paperwork-separator-justice }
-    { "[" } Assinatura da Testemunha:[/bold]
+    { "[" }bold]Witness' Signature:[/bold]

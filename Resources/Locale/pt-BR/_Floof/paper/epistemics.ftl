@@ -1,17 +1,17 @@
-paperwork-header-epistemics = { "[" }Cor=#c96dbf][bold]N[/bold]◣ [bold]EPISTEMIA[/bold][/color]
+paperwork-header-epistemics = { "[" }color=#c96dbf] ◥[bold]N[/bold]◣ [bold]EPISTEMIA[/bold][/color]
 
-paperwork-separator-epistemics = { "[" }, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , ,[/color]
+paperwork-separator-epistemics = { "[" }color=#c96dbf]‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾[/color]
 
 paperwork-separator-epistemics-borgification-notice =
     { paperwork-header-epistemics }
     { paperwork-separator-epistemics }
-        { "[" }head=2]BORGICFAÇÃO NOTICE[/head]
+        { "[" }head=2]BORGIFCATION NOTICE[/head]
     { paperwork-separator-epistemics }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }APLICAÇÃO DE BURGO:[/bold]
-        { "[" }- Sim.[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]BORG APPLICATE:[/bold]
+        { "[" }bold]FORMER JOB:[/bold]
     { paperwork-separator-epistemics }
     
     •[bold]DATA:[/bold]
@@ -20,49 +20,49 @@ paperwork-separator-epistemics-borgification-notice =
     
     { paperwork-separator-epistemics }
     
-    { "[" } Os pertences de um funcionário que morreu no local de trabalho devem ser transferidos para o departamento em que trabalhavam, não para transferir itens por razões objetivas.[/italic]
+    { "[" }italic]NOTE: The belongings of an employee who died in the workplace must be transferred to the department in which they worked in. It is allowed, not to transfer items for objective reasons.[/italic]
     
-    { "[" }Este documento não é válido a menos que seja carimbado por pelo menos um dos funcionários necessários.[/color]
+    { "[" }color=red]This document is not valid unless stamped by at least one of the required personnel.[/color]
     
     •[bold] Chefe de Serviço Médico Assinatura:[/bold]
 
 paperwork-separator-epistemics-production-request =
     { paperwork-header-epistemics }
     { paperwork-separator-epistemics }
-        { "[" }PEDIDO DE PRODUÇÃO[/head]
+        { "[" }head=2]PRODUCTION REQUEST[/head]
     { paperwork-separator-epistemics }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }- Não, não, não.[/bold]
-        { "[" }- Não, não.[/bold]
-        { "[" }- Não.[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]MYSTAGOGUE:[/bold]
+        { "[" }bold]RECIEVER:[/bold]
+        { "[" }bold]DEPARTMENT:[/bold]
     { paperwork-separator-epistemics }
     Itens Solicitados:
     { paperwork-separator-epistemics }
-    { "[" }Por favor, coloque um X com o número de itens desejados.
+    { "[" }italic]NOTE: Please place an X with the number of items desired. If it is a personal order, place "personal" under department.
     
-    { "[" }Este documento não é válido a menos que seja carimbado por pelo menos um dos funcionários necessários.[/color]
+    { "[" }color=red]This document is not valid unless stamped by at least one of the required personnel.[/color]
     
-    { "[" }ASSINATURA DE MINHA ESTAGÓGIA[/bold]
+    { "[" }bold]MYSTAGOGUE SIGNATURE[/bold]
 
 paperwork-separator-epistemics-psionic-self-identification =
     { paperwork-header-epistemics }
     { paperwork-separator-epistemics }
-        { "[" }head=2]IDENTIFICAÇÃO PSSIONAL[/head]
+        { "[" }head=2]PSIONIC SELF-IDENTIFICATION[/head]
     { paperwork-separator-epistemics }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" } Não, não, não.[/bold]
-        { "[" }LOCAL DE ORIGEM:[/bold]
-        { "[" }Data de nascimento:[/bold]
-        { "[" }- Não, não, não.[/bold]
-        { "[" }- Não, não, não.[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]NAME:[/bold]
+        { "[" }bold]PLACE OF ORIGIN:[/bold]
+        { "[" }bold]DATE OF BIRTH:[/bold]
+        { "[" }bold]PRONOUNS:[/bold]
+        { "[" }bold]JOB:[/bold]
     { paperwork-separator-epistemics }
      Descrição física: informações médicas relevantes: como você equipou habilidades psicogênicas: seus interesses: suas habilidades: sua experiência de trabalho passada:
     { paperwork-separator-epistemics }
-    { "[" }Este documento não é válido a menos que seja carimbado por pelo menos um dos funcionários necessários.[/color]
+    { "[" }color=red]This document is not valid unless stamped by at least one of the required personnel.[/color]
     
-    { "[" }Itálico][color=gray]O documento só é válido se houver uma assinatura de mantis psiônico ou Mystagogue, a pessoa responsável confirma que esta é uma verdadeira documentação da identidade da pessoa, a pessoa responsável confirma a transferência do direito de dispor da vida, saúde, inventário, alma, capacidade psiconica e bens da pessoa responsável para a NanoTrasen Corporation, a NanoTrasen Corporation não é responsável pela perda de vida/lesão/perda de propriedade/outro meio dentro do âmbito de Procedimentos Operacionais Padrão, Lei Espacial ou outros atos.[/color][/italic]
+    { "[" }italic][color=gray]O documento só é válido se houver uma assinatura de mantis psiônico ou Mystagogue, a pessoa responsável confirma que esta é uma verdadeira documentação da identidade da pessoa, a pessoa responsável confirma a transferência do direito de dispor da vida, saúde, inventário, alma, capacidade psiconica e bens da pessoa responsável para a NanoTrasen Corporation, a NanoTrasen Corporation não é responsável pela perda de vida/lesão/perda de propriedade/outro meio dentro do âmbito de Procedimentos Operacionais Padrão, Lei Espacial ou outros atos.[/color][/italic]
     
-    { "[" } Assinatura do Louva-a-Deus Psiônico:[/bold]
-    { "[" }Mystagogue Stamp:[/bold]
+    { "[" }bold] Psionic Mantis Signature:[/bold]
+    { "[" }bold] Mystagogue Stamp:[/bold]

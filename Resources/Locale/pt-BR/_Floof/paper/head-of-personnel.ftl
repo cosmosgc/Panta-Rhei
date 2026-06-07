@@ -1,59 +1,59 @@
-paperwork-header-hop = { "[" }Cor = #1b67a5][bold]N[/bold]◣ [head=3][bold]CIDADE DE PESSOAL[/bold][/head][/color]
+paperwork-header-hop = { "[" }color=#1b67a5] ◥[bold]N[/bold]◣ [head=3][bold]CIDADE DE PESSOAL[/bold][/head][/color]
 
-paperwork-separator-hop = { "[" }cor=#1b67a5] , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , [/color]
+paperwork-separator-hop = { "[" }color=#1b67a5]‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾[/color]
 
 paperwork-hop-access-permit =
     { paperwork-header-hop }
     { paperwork-separator-hop }
-        { "[" } Licença de acesso [/head]
+        { "[" }head=2]Access Permit [/head]
     { paperwork-separator-hop }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }- Não, não, não.[/bold]
-        { "[" }ACESSO CONCESSADO:[/bold]
-        { "[" }- Não, não, não.[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]PERSONS:[/bold]
+        { "[" }bold]ACCESS GRANTED:[/bold]
+        { "[" }bold]JOB:[/bold]
     { paperwork-separator-hop }
     { "•" }  Razão para o acesso estendido:
     { "•" }  Outras Notas:
-    { "[" }Este documento dá { "{" }Introduza o nome{ "}" } Este documento deve ser assinado e carimbado pelo Chefe de Pessoal para ser considerado válido.[/color]
+    { "[" }color=red]This document gives { "{" }Introduza o nome{ "}" } Este documento deve ser assinado e carimbado pelo Chefe de Pessoal para ser considerado válido.[/color]
     
-    { "[" } Assinatura do Aplicante:[/bold]
-    { "[" } Chefe de Assinatura do Pessoal:[/bold]
+    { "[" }bold]Applicant's Signature:[/bold]
+    { "[" }bold]Head of Personnel's Signature:[/bold]
 
 paperwork-hop-job-transfer-request =
     { paperwork-header-hop }
     { paperwork-separator-hop }
-        { "[" } Pedido de transferência de trabalho[/head]
+        { "[" }head=2]Job Transfer Request[/head]
     { paperwork-separator-hop }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }APENAS:[/bold]
-        { "[" }- Não, não, não.[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]APPLICANT:[/bold]
+        { "[" }bold]JOB:[/bold]
     { paperwork-separator-hop }
     { "•" }  Posição desejada:
     { "•" }  Razões para a transferência para a posição desejada:
     { "•" }  Suas habilidades:
     { paperwork-separator-hop }
-    { "[" }Este documento não é válido a menos que seja carimbado por pelo menos um dos funcionários necessários.[/color]
+    { "[" }color=red]This document is not valid unless stamped by at least one of the required personnel.[/color]
     
-    { "[" }O documento é válido se um selo do chefe do departamento onde a pessoa responsável está empregada, a menos que explicitamente declarado o contrário.[/italic]
+    { "[" }italic]NOTE: The document is valid if a seal of the Head of the department where the accountable person is employed, unless explicitly stated otherwise. The accountable person confirms that they have all the necessary skills to work in a new workplace.[/italic]
     
-    { "[" } Assinatura dos candidatos:[/bold]
-    { "[" } Chefe da Assinatura do Pessoal:[/bold]
+    { "[" }bold]Applicants's Signature:[/bold]
+    { "[" }bold]Head Of Personnel's Signature:[/bold]
 
 paperwork-hop-crewmate-identification =
     { paperwork-header-hop }
     { paperwork-separator-hop }
-        { "[" }IDENTIFICAÇÃO DE CRIAÇÃO[/head]
+        { "[" }head=2]CREWMATE IDENTIFICATION[/head]
     { paperwork-separator-hop }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" } Não, não, não.[/bold]
-        { "[" }LOCAL DE ORIGEM:[/bold]
-        { "[" }Data de nascimento:[/bold]
-        { "[" }- Não, não, não.[/bold]
-        { "[" }- Não, não, não.[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]NAME:[/bold]
+        { "[" }bold]PLACE OF ORIGIN:[/bold]
+        { "[" }bold]DATE OF BIRTH:[/bold]
+        { "[" }bold]PRONOUNS:[/bold]
+        { "[" }bold]JOB:[/bold]
     { paperwork-separator-hop }
     { "•" }  Descrição física:
     { "•" }  Informações médicas relevantes:
@@ -62,85 +62,94 @@ paperwork-hop-crewmate-identification =
     { "•" }  Sua experiência de trabalho passado:
     { "•" } Em caso de morte:
     { paperwork-separator-hop }
-    { "[" }Este documento não é válido a menos que seja carimbado por pelo menos um dos funcionários necessários.[/color]
+    { "[" }color=red]This document is not valid unless stamped by at least one of the required personnel.[/color]
     
-    { "[" }Itálico][color=gray]O documento só é válido se houver um carimbo do chefe do departamento, a pessoa responsável confirma que esta é uma verdadeira documentação da identidade da pessoa, a pessoa responsável confirma a transferência do direito de dispor da vida, saúde, inventário, alma e bens da pessoa responsável para a NanoTrasen Corporation, a NanoTrasen Corporation não é responsável pela perda de vida/lesão/perda de propriedade, ou seja, dentro do âmbito de Procedimentos Operacionais Padrão, Lei Espacial ou outros atos.[/color][/italic]
+    { "[" }italic][color=gray]O documento só é válido se houver um carimbo do chefe do departamento, a pessoa responsável confirma que esta é uma verdadeira documentação da identidade da pessoa, a pessoa responsável confirma a transferência do direito de dispor da vida, saúde, inventário, alma e bens da pessoa responsável para a NanoTrasen Corporation, a NanoTrasen Corporation não é responsável pela perda de vida/lesão/perda de propriedade, ou seja, dentro do âmbito de Procedimentos Operacionais Padrão, Lei Espacial ou outros atos.[/color][/italic]
     
-    { "[" } Chefe de Assinatura de Pessoal:[/bold]
-    { "[" } Chefe do Selo de Pessoal:[/bold]
+    { "[" }bold] Head of Personnel Signature:[/bold]
+    { "[" }bold] Head of Personnel Stamp:[/bold]
 
 paperwork-hop-formal-complaint =
     { paperwork-header-hop }
     { paperwork-separator-hop }
-        { "[" }Queixa formal [/head]
+        { "[" }head=2]Formal Complaint [/head]
     { paperwork-separator-hop }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }O QUE É QUE VOCÊ ESTÁ ?[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]HEAD OF PERSONNEL:[/bold]
     { paperwork-separator-hop }
-    { "[" }Seção A[/head]
+    { "[" }head=3]Section A[/head]
      Nome da queixa:               [color=#002AAF]Pessoa da amostra[/color]
                                                   O papel do queixoso:                  [color=#002AAF] Papel de Amostra[/color]
                                                   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
     { paperwork-separator-hop }
-    { "[" }Seção B[/head]
-    { "[" }Sujeito de Queixa:[/bold]
-    Um indivíduo, um departamento, outro.
-    { "[" }Se o outro, por favor, pule para a seção C[/italic]
+    { "[" }head=3]Section B[/head]
+    { "[" }bold]Subject of Complaint:[/bold]
+    \[  ] A Individual    \[  ] A Department    \[  ] Other
+    { "[" }italic]If other, please skip to Section C[/italic]
     
-     Departamento de Reclamação: Comando CentCom
+    Department of the Subject of Complaint:
+    \[  ] Sci     \[  ] Engi  \[  ] Service         \[  ] Cargo        \[  ] Grey
+    \[  ] Med  \[  ] Sec   \[  ] Command   \[  ] CentCom  \[  ] Other
     
-    { "[" }Se você está reclamando de uma pessoa, por favor responda o seguinte.[/italic]
+    { "[" }italic]If you are complaining about a person, please answer the following.[/italic]
      Nome:    [color=#002AAF]Pessoa da amostra[/color]
                    ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
-    { "[" }Por favor, escolha categoria(s) de má conduta que a pessoa ou departamento cometeu.[/italic]
-    Violação da lei espacial, sabotagem de equipamentos, roubo de propriedade, destruição de propriedade, desordem excessiva, não burocracia suficiente, ser realmente irritante, outra:    [color=#002AAF] Problema de amostra[/color]
+    { "[" }italic]Please choose category(s) of misconduct the person or department has committed.[/italic]
+    \[  ] Violation of Space Law      \[  ] Acting against NT interests
+    \[  ] Destruction of Property   \[  ] Causing a disturbance
+    \[  ] "Unspeakable Acts"          \[  ] Sabotage of equipment
+    \[  ] Theft of Property               \[  ] Overly Bureaucratic
+    \[  ] Overly Rude/Mean            \[  ] Not Bureaucratic Enough
+    \[  ] Being Really Annoying
+    \[  ] Other:    [color=#002AAF] Problema de amostra[/color]
                    ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
-    { "[" } Quem foi afetado?[/italic]
-     Apenas eu, algumas pessoas, um departamento que vale a pena, vários departamentos que valem a pena, toda a estação.
+    { "[" }italic]Who Was Affected?[/italic]
+    \[  ] Just Me    \[  ] A few people    \[  ] A department worth
+    \[  ] Multiple Departments worth    \[  ] Whole Station
     { paperwork-separator-hop }
-    { "[" }Seção C[/head]
-    { "[" }Por favor, forneça uma explicação detalhada da falta de conduta abaixo, fornecendo todos os detalhes relevantes para a história.[/bold]
+    { "[" }head=3]Section C[/head]
+    { "[" }bold]Please provide a detailed explanation of the missconduct below, providing all details relevant to the story.[/bold]
     
-    { "[" }cor=#1b67a5] , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , [/color]
-    { "[" }- Cor = vermelho][italic]Por favor, ou envie ao Chefe de Pessoal, se não for possível, envie o formulário ao Oficial Comandante ou ao CentCom por fax para revisão.[/italic][/color]
+    { "[" }color=#1b67a5]‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾[/color]
+    { "[" }color=red][italic]Por favor, ou envie ao Chefe de Pessoal, se não for possível, envie o formulário ao Oficial Comandante ou ao CentCom por fax para revisão.[/italic][/color]
     
-    { "[" } Assinatura do queixoso:[/bold]
+    { "[" }bold]Signature of Complaintant:[/bold]
 
 paperwork-hop-order-of-dismissal =
     { paperwork-header-hop }
     { paperwork-separator-hop }
-        { "[" }CHEFE DE DES missáo [/head]
+        { "[" }head=2]ORDER OF DISMISSAL [/head]
     { paperwork-separator-hop }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }ASSUNTOS DE PESSOA:[/bold]
-        { "[" }- Não, não, não.[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]ACCOUNTABLE PERSON:[/bold]
+        { "[" }bold]JOB:[/bold]
     { paperwork-separator-hop }
     { "•" }  Funcionário dispensado:
     { "•" } A posição do empregado demitido:
     { "•" } A razão da demissão:
     { paperwork-separator-hop }
     
-    { "[" }Este documento é válido apenas para funcionários que não têm o status de Chefe de Departamento, o documento deve ser selado com o selo do departamento em que o funcionário demitido trabalhou, salvo indicação em contrário, após demissão, o empregado é obrigado a receber o uniforme do passageiro, o fone de ouvido do passageiro e o PDA do passageiro, tendo entregue todo o inventário profissional da posição anterior.[/italic]
+    { "[" }italic]NOTE: This form of document is valid only for employees who do not have the status of Head of Department. The document must be sealed with the stamp of the department in which the dismissed employee worked, unless explicitly stated otherwise. After dismissal, the employee is obliged to receive the passenger's uniform, the passenger's headset and the passenger's PDA, having handed over all the professional inventory of the previous position.[/italic]
     
-    { "[" }Este documento não é válido a menos que seja carimbado por pelo menos um dos funcionários necessários.[/color]
+    { "[" }color=red]This document is not valid unless stamped by at least one of the required personnel.[/color]
     
-    { "[" }O CHEFE DE PESSOAIS FALTA:[/BOLD]
+    { "[" }bold]HEAD OF PERSONNELS STAMP:[/BOLD]
 
 paperwork-hop-dismissal-of-department-head =
     { paperwork-header-hop }
     { paperwork-separator-hop }
-        { "[" }DEPARTAMENTO DE DESISSÃO [/bold]
+        { "[" }bold]DISMISSAL OF DEPARTMENT HEAD [/bold]
     { paperwork-separator-hop }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }- Sim.[/bold]
-        { "[" }ASSUNTOS DE PESSOA:[/bold]
-        { "[" }- Não, não, não.[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]COMMANDING OFFICER:[/bold]
+        { "[" }bold]ACCOUNTABLE PERSON:[/bold]
+        { "[" }bold]JOB:[/bold]
     { paperwork-separator-hop }
     { "•" }  Nome da pessoa que está sendo demitido:
     { "•" } A posição da pessoa que está sendo demitida:
@@ -148,24 +157,25 @@ paperwork-hop-dismissal-of-department-head =
     { "•" }  Comentários adicionais [italic](emitido por outros chefes de departamento)[/italic]:
     { paperwork-separator-hop }
     
-    { "[" }Este documento não é válido a menos que seja carimbado por pelo menos um dos funcionários necessários.[/color]
+    { "[" }color=red]This document is not valid unless stamped by at least one of the required personnel.[/color]
     
-    { "[" }A inicialização da demissão só pode ser realizada pelo Comandante ou pelo Chefe de Pessoal (com a permissão do Comandante ou do Comando Central), este documento deve ter a assinatura da pessoa dispensada (exceto em casos de recusa direta de assinar a ordem), este documento só é válido se houver um carimbo do Comandante, ou o carimbo do Comando Central.[/italic]
+    { "[" }italic]NOTE: The initialization of dismissal can only be carried out by the Commanding Officer or the Head of Personnel (with the permission of the Commanding Officer or Central Command). This document must have the signature of the dismissed person (except in cases of direct refusal to sign the order). This document is only valid if there is a stamp of the Commanding Officer, or the stamp of Central Command.[/italic]
     
-    { "[" } Assinatura do Oficial:[/bold]
+    { "[" }bold]Commanding Officer's Signature:
+    Head Of Personnel's Signature:[/bold]
     
      Assinatura do demitido:
 
 paperwork-hop-employment-application =
     { paperwork-header-hop }
     { paperwork-separator-hop }
-        { "[" }PEDIDO DE EMPREGO[/head]
+        { "[" }head=2]EMPLOYMENT APPLICATION[/head]
     { paperwork-separator-hop }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }ASSUNTOS DE PESSOA:[/bold]
-        { "[" }- Não, não, não.[/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]ACCOUNTABLE PERSON:[/bold]
+        { "[" }bold]JOB:[/bold]
     { paperwork-separator-hop }
     { "•" }  Emprego desejado:
     { "•" }  Razões pelas quais você deve obter esta posição:
@@ -175,57 +185,57 @@ paperwork-hop-employment-application =
     
     { paperwork-separator-hop }
     
-    { "[" }Este documento não é válido a menos que seja carimbado por pelo menos um dos funcionários necessários.[/color]
+    { "[" }color=red]This document is not valid unless stamped by at least one of the required personnel.[/color]
     
-    { "[" } Nota: Este documento é válido apenas se forem fornecidas informações confiáveis sobre a pessoa. Fornecer informações falsas é uma razão para a recusa de emprego. Este documento é válido apenas se houver um selo do chefe do departamento onde a pessoa responsável está empregada, salvo indicação explícita em contrário. A pessoa responsável confirma que eles têm todas as habilidades necessárias para trabalhar no emprego desejado, é uma pessoa saudável. A pessoa responsável confirma a transferência do direito de dispor da vida, saúde, inventário, alma e bens da pessoa responsável para NanoTrasen Corporation. NanoTrasen Corporation não é responsável pela perda de vida / lesão / perda de propriedade / de outra forma, dentro do quadro de Procedimentos Operacionais Padrão, Lei Espacial ou outros atos.[/italic]
+    { "[" }italic]NOTE: This document is valid only if reliable information about the person is provided. Providing false information is a reason for refusal of employment. This document is valid only if there is a stamp of the Head of the department where the accountable person is employed, unless explicitly stated otherwise. The accountable person confirms that they have all the necessary skills to work in the desired employment, is a healthy person. The accountable person confirms the transfer of the right to dispose of the life, health, inventory, soul and assets of the accountable person to NanoTrasen Corporation. NanoTrasen Corporation is not responsible for loss of life/injury/loss of property/otherwise within the framework of Standard Operating Procedures, Space Law or other acts.[/italic]
     
-    { "[" } Chefe de Assinatura de Pessoal:[/bold]
+    { "[" }bold] Head of Personnel Signature:[/bold]
 
 paperwork-hop-restricted-equipment-permit =
     { paperwork-header-hop }
     { paperwork-separator-hop }
-        { "[" }head=2]Equipamento restrito. [/head]
+        { "[" }head=2]Restricted Equipment Permit [/head]
     { paperwork-separator-hop }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }EQUIPAMENTO USUÁRIO: [/bold]
-        { "[" } Tipo de equipamento: [/bold]
-        { "[" }- Não, não, não. [/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]EQUIPMENT USER: [/bold]
+        { "[" }bold]EQUIPMENT TYPE: [/bold]
+        { "[" }bold]JOB: [/bold]
     { paperwork-separator-hop }
     { "•" }   Razões para o equipamento desejado:
     { "•" }   Outras Notas:
     { paperwork-separator-hop }
-    { "[" }Este documento dá [insert name] A capacidade de carregar { "{stated gear}" } Sem obstáculos.[/color]
+    { "[" }color=red]This document gives [insert name] A capacidade de carregar { "{stated gear}" } Sem obstáculos.[/color]
     
-    { "[" } Esta licença pode ser revogada como em um aviso de momento se o partido aplicável violar a Lei Espacial no uso de tais equipamentos.[/color]
+    { "[" }color=gray]This Permit can be revoked as at a moment's notice if the applicable party violates Space Law in the use of said Equipment.[/color]
     
-    { "[" }Este documento deve ser assinado e carimbado pelo Chefe de Pessoal e Chefe de Segurança para ser considerado válido.[/color]
+    { "[" }color=red]This document must be signed and stamped by Head of Personnels & Head of Security to be considered valid.[/color]
     
-    { "[" } Chefe de Selo de Pessoal e Assinatura:[/bold]
-    { "[" } Chefe de Selo de Segurança e Assinatura:[/bold]
+    { "[" }bold]Head of Personnels' Stamp & Signature:[/bold]
+    { "[" }bold]Head of Security Stamp & Signature:[/bold]
 
 paperwork-hop-restricted-weapons-permit =
     { paperwork-header-hop }
     { paperwork-separator-hop }
-        { "[" }Permissão de armas restrita [/head]
+        { "[" }head=2]Restricted Weapons Permit [/head]
     { paperwork-separator-hop }
-        { "[" }- Não, não, não.[/bold]  Estação Floof
-        { "[" }- Não, não.[/bold] { $stationName }
-        { "[" }- Não, não, não.[/bold] XX:XX
-        { "[" }[WEAPON USER: [/bold]
-        { "[" }- Sim. [/bold]
-        { "[" }- Não, não, não. [/bold]
+        { "[" }bold]SECTOR:[/bold]  Estação Floof
+        { "[" }bold]STATION:[/bold] { $stationName }
+        { "[" }bold]SHIFT TIME:[/bold] XX:XX
+        { "[" }bold]WEAPON USER: [/bold]
+        { "[" }bold]WEAPON TYPE: [/bold]
+        { "[" }bold]JOB: [/bold]
     { paperwork-separator-hop }
     { "•" }  Razões para o equipamento desejado:
     { "•" }  Outras Notas:
     { paperwork-separator-hop }
     
-    { "[" }Este documento dá [insert name] A capacidade de carregar armamentos da classe L3.[/color]
+    { "[" }color=red]This document gives [insert name] A capacidade de carregar armamentos da classe L3.[/color]
     
-    { "[" }A classe 3 inclui armas, mas não se limita a armas automáticas, explosivos de combate e armas de melee baseadas em energia.[/color]
+    { "[" }color=gray]Class three armaments include but are not limited to: automatic weapons, combat explosives, and energy based melee weaponry.[/color]
     
-    { "[" }Este documento deve ser assinado e carimbado pelo Chefe de Pessoal e Chefe de Segurança para ser considerado válido.[/color]
+    { "[" }color=red]This document must be signed and stamped by Head of Personnels & Head of Security to be considered valid.[/color]
     
-    { "[" } Chefe de Selo de Pessoal e Assinatura:[/bold]
-    { "[" } Chefe de Selo de Segurança e Assinatura:[/bold]
+    { "[" }bold]Head of Personnels' Stamp & Signature:[/bold]
+    { "[" }bold]Head of Security Stamp & Signature:[/bold]
