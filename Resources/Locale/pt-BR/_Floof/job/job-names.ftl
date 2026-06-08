@@ -65,3 +65,15 @@ loadout-group-chaplain-pdas = Capelão Pda.
 loadout-group-floof-paramed-pdas = Pda paramed
 
 loadout-group-floof-senior-pyhs-pdas =  Médico Sênior PDA
+
+job-alt-title-acolyte = Acólito
+
+job-alt-title-golemancer = Golemancer
+
+job-alt-title-mystic = Mística
+
+job-alt-title-noviciate = Noviciado
+
+loadout-group-epistemics-research-assistant-pdas =  Assistente de Pesquisa PDA
+
+loadout-group-epistemics-senior-researcher-pda = Pesquisador Sênior PDA

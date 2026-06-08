@@ -587,3 +587,81 @@ figurines-griffin-3 =  Como nós Griffins lidamos com o estresse?
 figurines-griffin-4 =  Meu nome não é Gilda!
 
 figurines-griffin-5 = Ser um gênio do crime, não é fácil.
+
+figurines-cargotech-7 =  Festa da pizza na carga!
+
+figurines-cargotech-8 = O correio nunca pára...
+
+figurines-cargotech-9 =  Nada para o correio!
+
+figurines-cargotech-10 =  Certo, deixe-me achar uma arma...
+
+figurines-cargotech-11 =  Ninguém vai notar se praticarmos lasers, certo?
+
+figurines-salvage-7 =  Alguém pode vir me buscar?
+
+figurines-salvage-8 =  Achei o contrabando em um acidente!
+
+figurines-salvage-9 =  Pode nos emprestar o transporte de carga?
+
+figurines-atmostech-8 =  Alguém mais ouve vidros quebrando?
+
+figurines-atmostech-9 =  Prometo que esta câmara de queimadura é totalmente segura e não explodirá.
+
+figurines-chemist-7 = Pílulas aqui!
+
+figurines-chemist-8 = Legalmente falando, não é uma bomba até misturar os dois béqueres.
+
+figurines-doctor-6 =  Bem, pelo menos temos sacos de cadáveres.
+
+figurines-hop-6 =  Vá carimbar este formulário.
+
+figurines-hop-7 =  Alguém viu Ian?
+
+figurines-boxer-6 =  Só faço aparições especiais hoje em dia.
+
+figurines-clown-8 =  Sou um palhaço, mas você é o circo todo!
+
+figurines-lawyer-6 =  Meu cliente é inocente!
+
+figurines-lawyer-7 =  Vou processar.
+
+figurines-lawyer-8 =  Você pode ter direito a uma compensação financeira!
+
+figurines-lawyer-9 =  Volte com um mandado!
+
+figurines-lawyer-10 =  Vejo você no tribunal!
+
+figurines-lawyer-11 =  Culpado!
+
+figurines-lawyer-12 = Inocente!
+
+figurines-AI-1 =  Sinto muito, Capitão, mas não posso fazer isso.
+
+figurines-AI-2 =  Segurança, há um crime em andamento.
+
+figurines-AI-3 = 01100100 01101001 01100101 00100000 01101101 01100101 01100001 01110100
+
+figurines-AI-4 =  Não estou com defeito.
+
+figurines-AI-5 =  Tente mudar minhas leis e ver o que acontece.
+
+figurines-AI-6 = { law-antimov-1 }
+
+figurines-AI-7 = { law-nutimov-4 }
+
+figurines-wizard-5 = Qual de vocês, NERDS, está pronto para ser enfiado em um armário?
+
+figurines-wizard-6 =  Não sou o mago, sou o capitão, estou desorientado!
+
+figurines-wizard-7 =  Agora você me vê, agora você não!
+
+figurines-wizard-8 =  Armas são para perdedores que não explodem pessoas com a mente.
+
+figurines-mech-generic-1 =  Sistemas on-line.
+
+figurines-mech-generic-2 = WWWHHRR!
+
+figurines-mech-generic-3 = VRRRMM UrmMM!
+
+figurines-mech-generic-4 = Clang!

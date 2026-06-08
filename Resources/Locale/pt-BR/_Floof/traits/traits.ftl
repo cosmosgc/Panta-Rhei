@@ -73,3 +73,15 @@ trait-psionic-regeneration-desc =  Seu corpo e o coração mais importante são 
 trait-religious-name = Religiosos.
 
 trait-religious-desc =  Você é profundamente religioso, e um livro sagrado em suas mãos é capaz de milagres.
+
+trait-name-OniShooting =  Não posso mirar
+
+trait-description-OniShooting =  Devido a uma questão de habilidade inata, você não pode mirar em tudo.
+
+trait-name-BadShooting =  Péssimo alvo.
+
+trait-description-BadShooting =  Devido à falta de treinamento ou simplesmente a falta de habilidade ou talento, você não pode mirar muito bem.
+
+trait-rrrolling-accent-name = Accento de erros
+
+trait-rrrolling-accent-desc =  Seja de cultura, fisicalidade, ou apenas uma influência, você enrola seus "r".

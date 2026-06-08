@@ -19,3 +19,5 @@ flatpacker-ui-no-board-label =  Não há nenhum quadro presente!
 flatpacker-ui-insert-board =  Insira uma tábua para começar.
 
 flatpacker-ui-pack-button = - Faça as malas.
+
+flatpacker-ui-board-invalid-label = [color=red] Não é possível imprimir![/color]

@@ -27,3 +27,5 @@ store-preset-name-uplink = Uplink
 store-preset-name-spellbook =  Livro de Ortolas
 
 store-preset-name-changeling =  Loja de DNA
+
+store-preset-name-nukie-delivery = NukeOps entrega Bluespace

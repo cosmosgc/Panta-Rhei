@@ -59,3 +59,5 @@ roles-antag-mothership-core-objective = Use seus xenoborgs para criar ainda mais
 roles-antag-xenoborg-name = Xenoborg
 
 roles-antag-xenoborg-objective =  Ajude a nave-mãe a criar mais xenoborgs.
+
+roles-antag-pirate-name =  Pirata.

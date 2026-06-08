@@ -95,3 +95,5 @@ job-description-visitor =  Aproveite sua visita à estação.
 job-description-warden = Patrulhe o Departamento de Segurança, certifique-se de que ninguém está roubando do arsenal, e certifique-se de que todos os prisioneiros sejam processados e liberados quando o tempo acabar.
 
 job-description-zookeeper =  Coloque uma exibição alegre de animais bonitos e carpas espaciais para toda a tripulação ver.
+
+job-description-centcommoff = Aja como embaixador da mais nova estação espacial de última geração da frota de Nanotrasen.

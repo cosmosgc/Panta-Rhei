@@ -65,3 +65,7 @@ highlight-ert-janitor = Jani, Jani, ERT, Mess.
 highlight-ert-medic =  Doutor, "Doc", "Med", "Medic", "Médico", "ERT"
 
 highlight-ert-security-1 =  Segurança, oficial, Secoff, "Sec", "ERT"
+
+highlights-zookeeper = Zookeeper
+
+highlights-boxer = Boxer.

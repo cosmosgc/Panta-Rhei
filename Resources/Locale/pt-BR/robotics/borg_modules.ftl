@@ -31,3 +31,5 @@ borg-slot-powercell-empty = Powercells.
 borg-slot-inflatable-door-empty =  Porta inflável
 
 borg-slot-inflatable-wall-empty = Muro inflável
+
+borg-slot-injector-dropper-empty = Injetores de precisão.

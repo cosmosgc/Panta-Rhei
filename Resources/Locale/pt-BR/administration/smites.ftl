@@ -275,3 +275,7 @@ admin-trick-snap-joints-description =  Infelizmente, não quebra todos os ossos 
 admin-trick-minigun-fire-description =  Faz com que o alvo dispare como uma mini-arma (muito rápido).
 
 admin-trick-set-bullet-amount-description =  Coloque rapidamente a quantidade de balas não-espalhadas em uma arma.
+
+admin-smite-kill-sign-hidden-name =  Sinal de morte escondido
+
+admin-smite-kill-sign-hidden-description =  Marca um jogador para a morte por seus companheiros, escondido do jogador alvo.

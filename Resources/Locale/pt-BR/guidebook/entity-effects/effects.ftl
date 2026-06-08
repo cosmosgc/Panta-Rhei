@@ -540,3 +540,9 @@ entity-effect-guidebook-plant-seeds-remove =
         [1] Remove o
        *[other] -Retirar o
     }  sementes da planta
+
+entity-effect-guidebook-plant-mutate-chemicals =
+    { $chance ->
+        [1] Mutantes
+       *[other] Mutado
+    }  Uma planta para produzir { $name }

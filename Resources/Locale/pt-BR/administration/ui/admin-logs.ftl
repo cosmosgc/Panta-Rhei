@@ -51,3 +51,5 @@ admin-logs-field-players-header =  Jogadores
 admin-logs-player-field-no-players =  Não há jogadores.
 
 admin-logs-player-field-not-in-round =  Não em volta.
+
+admin-logs-export = Exportar

@@ -295,3 +295,21 @@ tiles-dark-marble =  azulejo de mármore escuro
 tiles-plasma-marble = telha plasmérble
 
 tiles-uranium-marble =  azulejo de mármore de urânio
+
+tiles-astro-ironsand = Astro-irons e
+
+tiles-astro-ironsand-borderless = Astro-irons sem fronteiras e
+
+tiles-ironsand-plating =  Ferros e chapeamento
+
+tiles-ironsand-tile =  Ferros e azulejos
+
+tiles-ironsand-concrete-tile =  Ferros e telha de concreto
+
+tiles-ironsand-concrete-slab =  Ferros e laje de concreto
+
+tiles-ironsand-concrete-smooth =  Ferros lisos e piso de concreto
+
+tiles-ironsand-packed = Arremessos de ferro e de ferro.
+
+tiles-ironsand-paved =  Ferros pavimentados e

@@ -15,3 +15,9 @@ reagent-name-VB-beer = Viktoria Bitter
 reagent-desc-VB-beer = Borbulhante, luz clara e dourada, com uma amargura distinta que lembra a Austrália.
 
 flavor-complex-vbbeer =  Como se finalmente tivesse se sentado depois de um longo trabalho de dias quentes no seu trabalho de colarinho azul 9 a 5
+
+reagent-name-bananacreampie =  Creme de Banana
+
+reagent-desc-bananacreampie = Um creme de ouro pálido e rico, com um sabor forte de banana Gros Michel.
+
+flavor-complex-bananacreampie =  Como sonhos de uma república de banana, com uma pitada de palhaços maltrapilhos.

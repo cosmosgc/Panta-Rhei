@@ -41,3 +41,7 @@ admin-verb-text-make-wizard =  Faça o Mago.
 admin-verb-text-make-changeling =  Faça o Mudeling (WIP)
 
 admin-overlay-antag-classic = ANTAG
+
+admin-verb-make-space-ninja =  Faça o alvo em um Ninja espacial.
+
+admin-verb-text-make-space-ninja =  Faça Ninja

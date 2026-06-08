@@ -15,3 +15,5 @@ id-card-access-level-corpsman =  Médico.
 id-card-access-level-robotics = Robótica
 
 id-card-access-level-surgery =  Cirurgia
+
+id-card-access-level-ert =  Equipe de Resposta de Emergência

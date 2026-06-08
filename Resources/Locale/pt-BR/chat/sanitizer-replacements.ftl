@@ -41,3 +41,5 @@ chatsan-tearfully-salutes = - Saudações, lágrimas.
 chatsan-tearfully-smiles =  Sorriso lacrimogêneo
 
 chatsan-winks = Piscadelas.
+
+chatsan-shrugs = De ombros.

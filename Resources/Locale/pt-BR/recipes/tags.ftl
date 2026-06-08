@@ -250,3 +250,10 @@ construction-graph-tag-spationaut-hardsuit = - Estância de terno.
 
 # clothing
 construction-graph-tag-backpack =  mochila
+
+construction-graph-tag-paper =  Papel de escritório
+
+construction-graph-tag-core-pinpointer-piece =  pedaço de um localizador de núcleo.
+
+# chemistry
+construction-graph-tag-centrifuge-compatible = Um recipiente centrífugo.

@@ -40,3 +40,6 @@ store-caregory-spellbook-utility = Feitiços utilitários
 store-caregory-spellbook-equipment =  Equipamento Mágico
 
 store-caregory-spellbook-events = Evento Feitiços
+
+# Nukie Delivery
+store-category-nukie-delivery =  Ofertas

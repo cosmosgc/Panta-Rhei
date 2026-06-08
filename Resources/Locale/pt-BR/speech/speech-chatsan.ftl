@@ -255,3 +255,7 @@ chatsan-replacement-66 =  Algo.
 chatsan-word-67 = - Tudo bem.
 
 chatsan-replacement-67 =  Tudo bem.
+
+chatsan-word-69 = Wya.
+
+chatsan-replacement-69 =  Onde você está?

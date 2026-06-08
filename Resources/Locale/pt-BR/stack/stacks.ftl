@@ -452,3 +452,13 @@ stack-dark-marble-floor =  piso de mármore escuro
 stack-plasma-marble-floor =  Piso plasmarble
 
 stack-uranium-marble-floor =  piso de mármore de urânio
+
+stack-ironsand-concrete-tile =  Ferros e telha de concreto
+
+stack-ironsand-concrete-mono-tile =  Ferros e concreto mono azulejo
+
+stack-ironsand-concrete-smooth =  ferros e concreto lisos
+
+stack-astro-ironsand-floor = Astro-irons e chão
+
+stack-astro-ironsand-floor-borderless = Astro-irons sem fronteira e chão

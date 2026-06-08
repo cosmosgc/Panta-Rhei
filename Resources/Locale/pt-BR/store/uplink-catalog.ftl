@@ -670,3 +670,11 @@ uplink-briefcase-gun-desc =  Uma pasta indistinta com um C-20K altamente compact
 uplink-energycrossbow-name = Mini-Abrótea de Energia
 
 uplink-energycrossbow-desc = A arma de qualquer agente que prefere que as vítimas não se movam, fogos regeneram flechas tóxicas que deslizam vítimas em um instante.
+
+uplink-hushpup-name =  Silêncio.
+
+uplink-hushpup-desc =  Uma espingarda com pouca capacidade para revista vem com uma caixa de chumbo, usa munição de calibre 50.
+
+uplink-voice-mask-implanter-name =  Implantador de máscara de voz
+
+uplink-voice-mask-implanter-desc = Modifica suas cordas vocais para serem capazes de soar como qualquer um que possa imaginar.

@@ -209,3 +209,13 @@ reagent-desc-haloperidol =  Elimina drogas estimulantes e alucinogênicas, reduz
 reagent-name-stelloxadone = stelloxadona
 
 reagent-desc-stelloxadone = Um químico criogênico, usado para dissolver toxinas agressivamente do corpo, funciona independentemente do paciente estar vivo ou morto.
+
+reagent-name-dexalin-plus-saline = Dexalina mais e soro fisiológico
+
+reagent-name-puncturase-tranexamic = puntrase e tranexamic
+
+reagent-name-pyrazine-dermaline =  pirazina e dermina
+
+reagent-name-warfarin = varfarina
+
+reagent-desc-warfarin =  Geralmente usado como anticoagulante, causa dificuldade em formar coágulos, pode causar hemorragia interna quando overdose.

@@ -236,3 +236,7 @@ loadout-group-gladiator-outerclothing =  Roupas exteriores Gladiador
 
 # Species
 loadout-group-humanoid-silicon =  Caixa de sobrevivência amiga do silicone
+
+loadout-group-boxer-jumpsuit = -Macaco boxeador.
+
+loadout-group-boxer-gloves = Luvas de boxer.

@@ -22,3 +22,5 @@ default-mixing-success =  Você mistura o { $mixed } com o { $mixer }
 bible-mixing-success =  Você abençoa o { $mixed } com o { $mixer }
 
 spoon-mixing-success =  Você mexe o { $mixed } com o { $mixer }
+
+handheld-centrifuge-success =  Você separa os químicos no { $mixed }

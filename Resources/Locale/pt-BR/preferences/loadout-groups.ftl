@@ -332,3 +332,5 @@ loadout-group-psychologist-jumpsuit = Psicólogo macacão
 loadout-group-boxer-jumpsuit = -Macaco boxeador.
 
 loadout-group-boxer-gloves = Luvas de boxer.
+
+loadout-group-survival-military =  Veja a linha 14, ninguém nunca verá isso assim: 3

@@ -227,3 +227,18 @@ JobVisitor =  Visitante.
 JobWarden =  Diretor
 
 JobZookeeper = Zookeeper
+
+job-name-centcommoff =  Oficial da CentComm
+
+# antagonist jobs
+job-name-ninja = Ninja.
+
+job-name-syndicate-commander =  Comandante do Sindicato
+
+job-name-syndicate-corpsman = Sindicate Corpsman
+
+job-name-syndicate-operative = Sindicate Operative
+
+job-name-pirate =  Pirata.
+
+job-name-wizard = Feiticeiro.

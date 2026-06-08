@@ -7,3 +7,7 @@ ghost-role-information-emotional-support-rules =  Você é um [color=lightpink][
 ghost-role-information-clippy-name = Clippy
 
 ghost-role-information-clippy-description = O leal trabalhador do representante da estação, cheira a papelão e papel.
+
+ghost-role-information-jerma-name = Jerma.
+
+ghost-role-information-jerma-description = Momento Pog

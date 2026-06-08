@@ -160,3 +160,5 @@ anomaly-behavior-fast = [color=crimson]A frequência de pulsação está forteme
 anomaly-behavior-strenght = [color=crimson]A força de pulsação aumentou significativamente.[/color]
 
 anomaly-behavior-moving = [color=crimson]A instabilidade da coordenada foi detectada.[/color]
+
+anomaly-secret-admin = [color=red](ERROR)[/color]

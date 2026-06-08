@@ -51,3 +51,5 @@ rcd-component-deconstruct = Desconstruir
 rcd-component-floor-steel = telha de aço
 
 rcd-component-plating =  Placa do casco
+
+rcd-component-cannot-build-identical-entity =  Isso já existe lá!

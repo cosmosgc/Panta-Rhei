@@ -115,3 +115,7 @@ signal-port-description-logic-memory-input =  Sinal para carregar na célula de 
 signal-port-name-logic-enable = Activar
 
 signal-port-description-logic-enable =  Só carrega o sinal de entrada na célula de memória quando está alto.
+
+signal-port-name-logic-random-input =  Sinal de entrada
+
+signal-port-description-logic-random-input =  Recebe qualquer sinal para desencadear uma saída aleatória.

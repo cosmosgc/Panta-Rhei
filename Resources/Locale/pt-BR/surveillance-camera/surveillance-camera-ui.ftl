@@ -19,3 +19,17 @@ surveillance-camera-monitor-ui-no-subnets = Sem subnets.
 surveillance-camera-setup =  Configuração
 
 surveillance-camera-setup-ui-set =  Preparar.
+
+surveillance-camera-monitor-ui-tab-list =  Lista
+
+surveillance-camera-monitor-ui-tab-map =  Mapa
+
+surveillance-camera-monitor-ui-legend-active = Activo.
+
+surveillance-camera-monitor-ui-legend-inactive = Inativo
+
+surveillance-camera-monitor-ui-legend-selected = Selecionado
+
+surveillance-camera-monitor-ui-legend-invalid = Inválido
+
+wire-name-camera-map = MAPA

@@ -113,3 +113,7 @@ reagent-desc-mechanotoxin =  Uma neurotoxina usada como veneno por algumas espé
 reagent-name-toxintrash = Material reprocessado
 
 reagent-desc-toxintrash =  Uma lama de cheiro horrível refinada eficientemente da matéria descartada representa uma conversão perfeita de resíduos zero de salvamento em alimento Vox, embora seja um veneno violento para os outros.
+
+reagent-name-hemorrhinol =  hemorrinol
+
+reagent-desc-hemorrhinol =  Uma toxina que causa danos graves nos vasos sanguíneos, causando sangramento rápido.

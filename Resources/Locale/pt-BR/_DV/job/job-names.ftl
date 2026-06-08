@@ -143,3 +143,16 @@ role-name-carpy = Carpy.
 role-name-shiva = Shiva.
 
 role-name-pun-pun = Pun Pun
+
+job-name-rd = Mystagogue
+
+job-name-brigmedic =  Médico.
+
+JobZookeeper = Zookeeper
+
+JobBoxer = Boxer.
+
+# Station specific
+job-name-boxer = Boxer.
+
+job-name-zookeeper = Zookeeper

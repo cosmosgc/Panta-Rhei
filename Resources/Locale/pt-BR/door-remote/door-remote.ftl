@@ -17,3 +17,5 @@ door-remote-switch-state-toggle-emergency-access =  Você muda o controle remoto
 door-remote-no-power = A porta não está ligada.
 
 door-remote-denied =  Acesso negado.
+
+door-remote-toggle-eletrify-text = Alternar o excesso de carga

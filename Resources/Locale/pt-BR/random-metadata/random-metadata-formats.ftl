@@ -31,3 +31,21 @@ name-format-ert = { $part0 } { $part1 }
 name-format-book = { $part0 } { $part1 }
 
 name-format-nuclear-operation = { $part0 } { $part1 }
+
+name-format-ert-leader =  Sargento. { $part0 }
+
+name-format-ert-specialist =  Especialista. { $part0 }
+
+name-format-ert-pointman =  Ponto { $part0 }
+
+name-format-ert-officer =  Oficial. { $part0 }
+
+name-format-ert-rifle = Rifleman. { $part0 }
+
+name-format-ert-grenade = Granada. { $part0 }
+
+name-format-ert-vanguard = Vanguarda. { $part0 }
+
+name-format-ert-doctor =  Doutor. { $part0 }
+
+name-format-ert-corpsman =  Médico. { $part0 }

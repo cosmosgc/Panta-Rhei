@@ -49,3 +49,17 @@ chem-master-window-sort-type-alphabetical =  Ordenar por: alfabético
 chem-master-window-sort-type-quantity =  Ordenar por: Quantidade
 
 chem-master-window-sort-type-latest =  Ordenar por: Recente Primeiro
+
+chem-master-output-buffer-draw = Buffer.
+
+chem-master-output-beaker-draw = Beaker
+
+chem-master-window-no-beaker-text = Sem béquer carregado.
+
+chem-master-window-beaker-empty-text = Beker Vazio
+
+chem-master-window-beaker-low-text =  Não há solução suficiente no copo.
+
+chem-master-output-source =  Fonte de embalagem:
+
+chem-master-no-source = Sem Fonte

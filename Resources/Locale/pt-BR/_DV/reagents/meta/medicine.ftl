@@ -27,3 +27,7 @@ reagent-name-stabilizine = stabilizina
 reagent-desc-stabilizine = Um potente químico usado para estabilizar e regular a temperatura corporal.
 
 reagent-desc-omnizine-deltav = Um líquido leitoso calmante com um brilho iridescente, um produto químico regenerativo e milagroso capaz de purgar o corpo da mais impureza, overdose causa crescimento canceroso.
+
+reagent-name-sanctussal = Sanctus sal.
+
+reagent-desc-sanctussal =  Uma mistura primitiva que afasta influências noöspheric, historicamente um golpe, mas que fornece a água benta de uma fonte divina produz resultados factuais.

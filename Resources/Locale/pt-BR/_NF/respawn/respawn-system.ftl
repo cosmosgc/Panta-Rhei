@@ -14,3 +14,6 @@ ghost-respawn-command-desc = Ressapanha você se você for um fantasma elegível
 ghost-respawn-not-a-ghost =  Você não está fantasma.
 
 ghost-respawn-ineligible =  Você não está elegível no momento.
+
+# DeltaV - Added missing ghost-gui-respawn string
+ghost-gui-respawn = Respawn

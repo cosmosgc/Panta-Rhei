@@ -10,6 +10,7 @@ minor-mass-mind-swap-event-sender =  Sofic Grammateus
 
 psionic-power-mass-sleep-warning =  Suas pálpebras começam a cair...
 
+# Precognition
 psionic-power-precognition-failure-by-damage =  Sua concentração foi quebrada, você não decifrou nada de útil.
 
 psionic-power-precognition-no-event-result-message =  Você vê uma visão de um lago sem perturbação.
@@ -110,6 +111,7 @@ psionic-power-precognition-rift-spawn-result-message =  Você vê uma pequena fa
 
 psionic-power-precognition-asakim-spawn-result-message =  Você sente o ar velho de uma criópode abrindo, e o eco fraco de uma inteligência muito distante, mas muito perto.
 
+# Psionic Eruption
 psionic-eruption-begin = { CAPITALIZE(THE($user)) }  está sendo consumido por uma energia psicogênica!
 
 psionic-eruption-annoy-minimal =  Você sente uma pressão aumentando em sua mente.
@@ -138,12 +140,85 @@ eruption-warning-window-acknowledge-button = Eu entendo.
 
 telegnosis-power-ssd = { CAPITALIZE(POSS-ADJ($ent)) }  olhos estão desfocados e dando voltas, como se tentasse ver algo que não está lá.
 
-fractured-form-nobodies =  Você não tem formulários alternativos para trocar!
+fractured-form-nobodies = Você não tem formulários alternativos para trocar!
 
-fractured-form-sleepy =  Você se sente sonolento... deveria encontrar um lugar para descansar.
+fractured-form-sleepy = Você se sente sonolento... deveria encontrar um lugar para descansar.
 
 fractured-form-ssd = { CAPITALIZE(SUBJECT($ent)) } { CONJUGATE-BE($ent) } em um sono profundo. { CAPITALIZE(POSS-ADJ($ent)) }  Os olhos parecem estar dando voltas como se estivesse sonhando.
 
-fractured-form-examine-self =  Você sente uma estranha conexão com { OBJECT($ent) }.
+fractured-form-examine-self = Você sente uma estranha conexão com { OBJECT($ent) }.
 
 glimmer-restyle-event =  Você sente que algo mudou em sua aparência...
+
+psionic-power-name-dispel = Dispulse.
+
+psionic-power-name-eruption = Erupção Psiônica
+
+psionic-power-name-fractured-form =  Forma fraturada
+
+psionic-power-name-mass-sleep =  Dormir em Massa
+
+psionic-power-name-mindswap =  Troca de Mente
+
+psionic-power-name-mindswap-return = Mente Trocar Retorno
+
+psionic-power-name-metapsionic = Pulso Metapsiônico
+
+psionic-power-name-noospheric-zap = Noospheric Zap
+
+psionic-power-name-precognition = Precognição
+
+psionic-power-name-psychokinetic =  Grito psicocinético
+
+psionic-power-name-psionic-invisibility = Invisibilidade Psiônica
+
+psionic-power-name-psionic-regeneration = Regeneração Psiônica
+
+psionic-power-name-pyrokinesis = Pirocinese
+
+psionic-power-name-telegnosis = Telegnosis.
+
+psionic-roll-failed = A influência noöspheric não deixa nenhuma marca em sua mente...
+
+psionic-partly-mindbroken = A influência psicogênica em sua mente enfraquece.
+
+psionic-mindbroken =  Sua mente se retira da abstração para a realidade.
+
+psionic-cannot-use-psionics =  Sua energia psicogênica não pode escapar de sua mente!
+
+psionic-shielded-from-attempt =  Uma influência psicogênica vacilou contra seu escudo!
+
+psionic-cannot-target-shielded =  Eles permanecem firmes contra seu alcance psiônico!
+
+psionic-equipped-shielded-in-doafter = O equipamento insulativo quebrou sua concentração.
+
+psionic-dispelled =  Alguém disperdiçou sua concentração psicogênica!
+
+# Fractured Form
+psionic-power-fractured-form-nobodies =  Você não tem formulários alternativos para trocar!
+
+psionic-power-fractured-form-sleepy =  Você se sente sonolento... deveria encontrar um lugar para descansar.
+
+psionic-power-fractured-form-ssd = { CAPITALIZE(SUBJECT($ent)) } { CONJUGATE-BE($ent) } em um sono profundo. { CAPITALIZE(POSS-ADJ($ent)) }  Os olhos parecem estar dando voltas como se estivesse sonhando.
+
+psionic-power-fractured-form-examine-self =  Você sente uma estranha conexão com { OBJECT($ent) }.
+
+psionic-power-fractured-form-dispelled =  Alguém dissipou sua sonolência.
+
+# Metapsionic Pulse
+psionic-power-metapsionic-success =  Você detecta presença psíquica lá.
+
+psionic-power-metapsionic-failure =  Você não detecta nenhuma presença psíquica lá.
+
+psionic-power-metapsionic-power-detected =  Você detecta isso. { $power }  foi usado por perto.
+
+# Mindswap
+psionic-power-mindswap-target-mindshielded =  Seu escudo mental... surpreendentemente protegeu sua mente de uma influência psicogênica.
+
+psionic-power-mindswap-own-mindshield =  Seu escudo mental impede sua mente de deixar seu corpo.
+
+psionic-power-mindswap-original-lost = A ligação psiônica ao seu corpo original foi cortada!
+
+gamerule-noospheric-zap-seize =  Uma erupção externa abala sua mente!
+
+gamerule-noospheric-zap-seize-potential-regained =  Sua mente reestrutura... exige conhecimento...

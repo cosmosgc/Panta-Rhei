@@ -36,3 +36,7 @@ role-description-carpy = "Grrr!"
 role-description-shiva = "Hsssss!"
 
 role-description-pun-pun = "Ok!"
+
+job-description-boxer =  Desafie o chefe do pessoal e seja preso quando ganhar.
+
+job-description-zookeeper =  Coloque uma exibição alegre de animais bonitos e carpas espaciais para toda a tripulação ver.

@@ -81,3 +81,7 @@ gun-speedloader-empty =  Carregador de velocidade vazio.
 examine-gun-spread-modifier-reduction = A propagação foi reduzida por [color=yellow]{ $percentage }%[/color].
 
 examine-gun-spread-modifier-increase = A propagação foi aumentada por [color=yellow]{ $percentage }%[/color].
+
+gun-set-fire-mode-examine = - Pronto para... [color=yellow]{ $mode }[/color].
+
+gun-set-fire-mode-popup =  Mudado para { $mode }
